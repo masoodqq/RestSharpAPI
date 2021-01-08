@@ -47,5 +47,4 @@ Further data transformation is done by executing stored procedures InsertIntoWor
 <a class="js-navigation-open link-gray-dark" href="https://docs.microsoft.com/en-us/sql/integration-services/integration-services-programming-overview?view=sql-server-ver15">Integration Services Programming Overview</a>
 <br>
 <a class="js-navigation-open link-gray-dark" href="https://docs.microsoft.com/en-us/sql/integration-services/control-flow/script-task?view=sql-server-ver15">Script Task</a> <br>
-
 <a class="js-navigation-open link-gray-dark" href="https://docs.microsoft.com/en-us/sql/integration-services/extending-packages-scripting-task-examples/script-task-examples?view=sql-server-ver15">Script Task Examples</a> <br>

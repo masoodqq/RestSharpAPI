@@ -1,0 +1,2721 @@
+{
+    "from": "20201201 000000",
+    "to": "20201230 000000",
+    "workSummaries": [
+        {
+            "id": 1389145,
+            "empId": 15513,
+            "workDate": "20201208 000000",
+            "wrkMins": 0,
+            "authorized": true,
+            "overtime": null,
+            "absent": null,
+            "absentTimeCode": null,
+            "authorizedMessage": "Authorized by the system.",
+            "comments": null,
+            "clocks": null,
+            "workDetails": [],
+            "exceptions": null,
+            "issues": null,
+            "wrksMessages": null,
+            "readOnly": false,
+            "readOnlyReason": "",
+            "daily": true
+        },
+        {
+            "id": 1389146,
+            "empId": 15513,
+            "workDate": "20201209 000000",
+            "wrkMins": 0,
+            "authorized": true,
+            "overtime": null,
+            "absent": null,
+            "absentTimeCode": null,
+            "authorizedMessage": "Authorized by the system.",
+            "comments": null,
+            "clocks": null,
+            "workDetails": [],
+            "exceptions": null,
+            "issues": null,
+            "wrksMessages": null,
+            "readOnly": false,
+            "readOnlyReason": "",
+            "daily": true
+        },
+        {
+            "id": 1389147,
+            "empId": 15513,
+            "workDate": "20201210 000000",
+            "wrkMins": 0,
+            "authorized": true,
+            "overtime": null,
+            "absent": null,
+            "absentTimeCode": null,
+            "authorizedMessage": "Authorized by the system.",
+            "comments": null,
+            "clocks": null,
+            "workDetails": [],
+            "exceptions": null,
+            "issues": null,
+            "wrksMessages": null,
+            "readOnly": false,
+            "readOnlyReason": "",
+            "daily": true
+        },
+        {
+            "id": 1389148,
+            "empId": 15513,
+            "workDate": "20201211 000000",
+            "wrkMins": 0,
+            "authorized": true,
+            "overtime": null,
+            "absent": null,
+            "absentTimeCode": null,
+            "authorizedMessage": "Authorized by the system.",
+            "comments": null,
+            "clocks": null,
+            "workDetails": [],
+            "exceptions": null,
+            "issues": null,
+            "wrksMessages": null,
+            "readOnly": false,
+            "readOnlyReason": "",
+            "daily": true
+        },
+        {
+            "id": 1389149,
+            "empId": 15513,
+            "workDate": "20201212 000000",
+            "wrkMins": 0,
+            "authorized": true,
+            "overtime": null,
+            "absent": null,
+            "absentTimeCode": null,
+            "authorizedMessage": "Authorized by the system.",
+            "comments": null,
+            "clocks": null,
+            "workDetails": [],
+            "exceptions": null,
+            "issues": null,
+            "wrksMessages": null,
+            "readOnly": false,
+            "readOnlyReason": "",
+            "daily": true
+        },
+        {
+            "id": 1389150,
+            "empId": 15513,
+            "workDate": "20201213 000000",
+            "wrkMins": 0,
+            "authorized": true,
+            "overtime": null,
+            "absent": null,
+            "absentTimeCode": null,
+            "authorizedMessage": "Authorized by the system.",
+            "comments": null,
+            "clocks": null,
+            "workDetails": [],
+            "exceptions": null,
+            "issues": null,
+            "wrksMessages": null,
+            "readOnly": false,
+            "readOnlyReason": "",
+            "daily": true
+        },
+        {
+            "id": 1389151,
+            "empId": 15513,
+            "workDate": "20201214 000000",
+            "wrkMins": 0,
+            "authorized": true,
+            "overtime": null,
+            "absent": null,
+            "absentTimeCode": null,
+            "authorizedMessage": "Authorized by the system.",
+            "comments": null,
+            "clocks": null,
+            "workDetails": [],
+            "exceptions": null,
+            "issues": null,
+            "wrksMessages": null,
+            "readOnly": false,
+            "readOnlyReason": "",
+            "daily": true
+        },
+        {
+            "id": 1389152,
+            "empId": 15513,
+            "workDate": "20201215 000000",
+            "wrkMins": 0,
+            "authorized": true,
+            "overtime": null,
+            "absent": null,
+            "absentTimeCode": null,
+            "authorizedMessage": "Authorized by the system.",
+            "comments": null,
+            "clocks": null,
+            "workDetails": [],
+            "exceptions": null,
+            "issues": null,
+            "wrksMessages": null,
+            "readOnly": false,
+            "readOnlyReason": "",
+            "daily": true
+        },
+        {
+            "id": 1389153,
+            "empId": 15513,
+            "workDate": "20201216 000000",
+            "wrkMins": 0,
+            "authorized": true,
+            "overtime": null,
+            "absent": null,
+            "absentTimeCode": null,
+            "authorizedMessage": "Authorized by the system.",
+            "comments": null,
+            "clocks": null,
+            "workDetails": [],
+            "exceptions": null,
+            "issues": null,
+            "wrksMessages": null,
+            "readOnly": false,
+            "readOnlyReason": "",
+            "daily": true
+        },
+        {
+            "id": 1389154,
+            "empId": 15513,
+            "workDate": "20201217 000000",
+            "wrkMins": 0,
+            "authorized": true,
+            "overtime": null,
+            "absent": null,
+            "absentTimeCode": null,
+            "authorizedMessage": "Authorized by the system.",
+            "comments": null,
+            "clocks": null,
+            "workDetails": [],
+            "exceptions": null,
+            "issues": null,
+            "wrksMessages": null,
+            "readOnly": false,
+            "readOnlyReason": "",
+            "daily": true
+        },
+        {
+            "id": 1389155,
+            "empId": 15513,
+            "workDate": "20201218 000000",
+            "wrkMins": 0,
+            "authorized": true,
+            "overtime": null,
+            "absent": null,
+            "absentTimeCode": null,
+            "authorizedMessage": "Authorized by the system.",
+            "comments": null,
+            "clocks": null,
+            "workDetails": [],
+            "exceptions": null,
+            "issues": null,
+            "wrksMessages": null,
+            "readOnly": false,
+            "readOnlyReason": "",
+            "daily": true
+        },
+        {
+            "id": 1389156,
+            "empId": 15513,
+            "workDate": "20201219 000000",
+            "wrkMins": 0,
+            "authorized": true,
+            "overtime": null,
+            "absent": null,
+            "absentTimeCode": null,
+            "authorizedMessage": "Authorized by the system.",
+            "comments": null,
+            "clocks": null,
+            "workDetails": [],
+            "exceptions": null,
+            "issues": null,
+            "wrksMessages": null,
+            "readOnly": false,
+            "readOnlyReason": "",
+            "daily": true
+        },
+        {
+            "id": 1389157,
+            "empId": 15513,
+            "workDate": "20201220 000000",
+            "wrkMins": 1569,
+            "authorized": false,
+            "overtime": true,
+            "absent": null,
+            "absentTimeCode": null,
+            "authorizedMessage": "Unauthorized by the system.",
+            "comments": null,
+            "clocks": {
+                "workSummaryId": 1389157,
+                "clocks": [
+                    {
+                        "index": 0,
+                        "type": {
+                            "id": 1,
+                            "name": "ON",
+                            "locName": "ON",
+                            "locDesc": "B"
+                        },
+                        "time": "20201220 143000",
+                        "data": null,
+                        "extData": "Dtz=US/Pacific&Dst=F&TZ=79",
+                        "lat": null,
+                        "lng": null,
+                        "hasLatLng": null,
+                        "issue": null,
+                        "allowedLocations": null
+                    },
+                    {
+                        "index": 1,
+                        "type": {
+                            "id": 2,
+                            "name": "OFF",
+                            "locName": "OFF",
+                            "locDesc": "E"
+                        },
+                        "time": "20201220 184100",
+                        "data": null,
+                        "extData": "Dtz=US/Pacific&Dst=F&TZ=79",
+                        "lat": null,
+                        "lng": null,
+                        "hasLatLng": null,
+                        "issue": null,
+                        "allowedLocations": null
+                    },
+                    {
+                        "index": 2,
+                        "type": {
+                            "id": 1,
+                            "name": "ON",
+                            "locName": "ON",
+                            "locDesc": "B"
+                        },
+                        "time": "20201220 191100",
+                        "data": null,
+                        "extData": "Dtz=US/Pacific&Dst=F&TZ=79",
+                        "lat": null,
+                        "lng": null,
+                        "hasLatLng": null,
+                        "issue": null,
+                        "allowedLocations": null
+                    },
+                    {
+                        "index": 3,
+                        "type": {
+                            "id": 2,
+                            "name": "OFF",
+                            "locName": "OFF",
+                            "locDesc": "E"
+                        },
+                        "time": "20201220 234300",
+                        "data": null,
+                        "extData": null,
+                        "lat": null,
+                        "lng": null,
+                        "hasLatLng": null,
+                        "issue": null,
+                        "allowedLocations": null
+                    }
+                ]
+            },
+            "workDetails": [
+                {
+                    "id": 381554,
+                    "workSummaryId": 1389157,
+                    "startTime": "20201220 143000",
+                    "endTime": "20201220 143700",
+                    "minutes": 7,
+                    "rate": 14.7,
+                    "timecode": {
+                        "id": 10117,
+                        "locName": "EARLY IN",
+                        "locDesc": "EARLY IN",
+                        "name": "EARLY IN"
+                    },
+                    "hourType": {
+                        "id": 1,
+                        "locName": "REG",
+                        "locDesc": "Straightime",
+                        "name": "REG"
+                    },
+                    "job": {
+                        "id": 10036,
+                        "locName": "PROD03",
+                        "locDesc": "PROD03-PROD FRIGO 3",
+                        "name": "PROD03"
+                    },
+                    "department": {
+                        "id": 10004,
+                        "locName": "CA1",
+                        "locDesc": "Dinuba",
+                        "name": "CA1"
+                    },
+                    "project": {
+                        "id": 10170,
+                        "locName": "317203",
+                        "locDesc": "PROD SWING F3",
+                        "name": "317203"
+                    },
+                    "docket": {
+                        "id": 10001,
+                        "locName": "None",
+                        "locDesc": "NO PREMIUM",
+                        "name": "0"
+                    },
+                    "team": {
+                        "id": 10711,
+                        "locName": "ANDRADE MARISOL 008805",
+                        "locDesc": "Andrade Marisol 008805 TEAM",
+                        "name": "ANDRADE MARISOL 008805",
+                        "supervisor": null,
+                        "supervisors": null
+                    },
+                    "workType": "D"
+                },
+                {
+                    "id": 384279,
+                    "workSummaryId": 1389157,
+                    "startTime": null,
+                    "endTime": null,
+                    "minutes": 523,
+                    "rate": 0.25,
+                    "timecode": {
+                        "id": 10008,
+                        "locName": "SWING",
+                        "locDesc": "SWING",
+                        "name": "SWING"
+                    },
+                    "hourType": {
+                        "id": 10002,
+                        "locName": "PREM",
+                        "locDesc": "Premium Pay",
+                        "name": "PREM"
+                    },
+                    "job": {
+                        "id": 10036,
+                        "locName": "PROD03",
+                        "locDesc": "PROD03-PROD FRIGO 3",
+                        "name": "PROD03"
+                    },
+                    "department": {
+                        "id": 10004,
+                        "locName": "CA1",
+                        "locDesc": "Dinuba",
+                        "name": "CA1"
+                    },
+                    "project": {
+                        "id": 10170,
+                        "locName": "317203",
+                        "locDesc": "PROD SWING F3",
+                        "name": "317203"
+                    },
+                    "docket": {
+                        "id": 10001,
+                        "locName": "None",
+                        "locDesc": "NO PREMIUM",
+                        "name": "0"
+                    },
+                    "team": {
+                        "id": 10711,
+                        "locName": "ANDRADE MARISOL 008805",
+                        "locDesc": "Andrade Marisol 008805 TEAM",
+                        "name": "ANDRADE MARISOL 008805",
+                        "supervisor": null,
+                        "supervisors": null
+                    },
+                    "workType": "P"
+                },
+                {
+                    "id": 384280,
+                    "workSummaryId": 1389157,
+                    "startTime": null,
+                    "endTime": null,
+                    "minutes": 523,
+                    "rate": 1.85,
+                    "timecode": {
+                        "id": 10054,
+                        "locName": "SEN 15",
+                        "locDesc": "SENIORITY 15YR",
+                        "name": "SEN 15"
+                    },
+                    "hourType": {
+                        "id": 10002,
+                        "locName": "PREM",
+                        "locDesc": "Premium Pay",
+                        "name": "PREM"
+                    },
+                    "job": {
+                        "id": 10036,
+                        "locName": "PROD03",
+                        "locDesc": "PROD03-PROD FRIGO 3",
+                        "name": "PROD03"
+                    },
+                    "department": {
+                        "id": 10004,
+                        "locName": "CA1",
+                        "locDesc": "Dinuba",
+                        "name": "CA1"
+                    },
+                    "project": {
+                        "id": 10170,
+                        "locName": "317203",
+                        "locDesc": "PROD SWING F3",
+                        "name": "317203"
+                    },
+                    "docket": {
+                        "id": 10001,
+                        "locName": "None",
+                        "locDesc": "NO PREMIUM",
+                        "name": "0"
+                    },
+                    "team": {
+                        "id": 10711,
+                        "locName": "ANDRADE MARISOL 008805",
+                        "locDesc": "Andrade Marisol 008805 TEAM",
+                        "name": "ANDRADE MARISOL 008805",
+                        "supervisor": null,
+                        "supervisors": null
+                    },
+                    "workType": "P"
+                },
+                {
+                    "id": 386704,
+                    "workSummaryId": 1389157,
+                    "startTime": "20201220 184100",
+                    "endTime": "20201220 191100",
+                    "minutes": 30,
+                    "rate": 0.0,
+                    "timecode": {
+                        "id": 10115,
+                        "locName": "REG MEAL",
+                        "locDesc": "REGULAR MEAL",
+                        "name": "REG MEAL"
+                    },
+                    "hourType": {
+                        "id": 0,
+                        "locName": "UNPAID",
+                        "locDesc": "Unpaid Time",
+                        "name": "UNPAID"
+                    },
+                    "job": {
+                        "id": 10036,
+                        "locName": "PROD03",
+                        "locDesc": "PROD03-PROD FRIGO 3",
+                        "name": "PROD03"
+                    },
+                    "department": {
+                        "id": 10004,
+                        "locName": "CA1",
+                        "locDesc": "Dinuba",
+                        "name": "CA1"
+                    },
+                    "project": {
+                        "id": 10170,
+                        "locName": "317203",
+                        "locDesc": "PROD SWING F3",
+                        "name": "317203"
+                    },
+                    "docket": {
+                        "id": 10001,
+                        "locName": "None",
+                        "locDesc": "NO PREMIUM",
+                        "name": "0"
+                    },
+                    "team": {
+                        "id": 10711,
+                        "locName": "ANDRADE MARISOL 008805",
+                        "locDesc": "Andrade Marisol 008805 TEAM",
+                        "name": "ANDRADE MARISOL 008805",
+                        "supervisor": null,
+                        "supervisors": null
+                    },
+                    "workType": "D"
+                },
+                {
+                    "id": 420277,
+                    "workSummaryId": 1389157,
+                    "startTime": "20201220 191100",
+                    "endTime": "20201220 230000",
+                    "minutes": 229,
+                    "rate": 14.7,
+                    "timecode": {
+                        "id": 1,
+                        "locName": "WRK",
+                        "locDesc": "REGULAR PAY",
+                        "name": "WRK"
+                    },
+                    "hourType": {
+                        "id": 1,
+                        "locName": "REG",
+                        "locDesc": "Straightime",
+                        "name": "REG"
+                    },
+                    "job": {
+                        "id": 10036,
+                        "locName": "PROD03",
+                        "locDesc": "PROD03-PROD FRIGO 3",
+                        "name": "PROD03"
+                    },
+                    "department": {
+                        "id": 10004,
+                        "locName": "CA1",
+                        "locDesc": "Dinuba",
+                        "name": "CA1"
+                    },
+                    "project": {
+                        "id": 10170,
+                        "locName": "317203",
+                        "locDesc": "PROD SWING F3",
+                        "name": "317203"
+                    },
+                    "docket": {
+                        "id": 10001,
+                        "locName": "None",
+                        "locDesc": "NO PREMIUM",
+                        "name": "0"
+                    },
+                    "team": {
+                        "id": 10711,
+                        "locName": "ANDRADE MARISOL 008805",
+                        "locDesc": "Andrade Marisol 008805 TEAM",
+                        "name": "ANDRADE MARISOL 008805",
+                        "supervisor": null,
+                        "supervisors": null
+                    },
+                    "workType": "D"
+                },
+                {
+                    "id": 420278,
+                    "workSummaryId": 1389157,
+                    "startTime": "20201220 230000",
+                    "endTime": "20201220 234300",
+                    "minutes": 43,
+                    "rate": 22.05,
+                    "timecode": {
+                        "id": 1,
+                        "locName": "WRK",
+                        "locDesc": "REGULAR PAY",
+                        "name": "WRK"
+                    },
+                    "hourType": {
+                        "id": 3,
+                        "locName": "OT1",
+                        "locDesc": "Overtime",
+                        "name": "OT1"
+                    },
+                    "job": {
+                        "id": 10036,
+                        "locName": "PROD03",
+                        "locDesc": "PROD03-PROD FRIGO 3",
+                        "name": "PROD03"
+                    },
+                    "department": {
+                        "id": 10004,
+                        "locName": "CA1",
+                        "locDesc": "Dinuba",
+                        "name": "CA1"
+                    },
+                    "project": {
+                        "id": 10170,
+                        "locName": "317203",
+                        "locDesc": "PROD SWING F3",
+                        "name": "317203"
+                    },
+                    "docket": {
+                        "id": 10001,
+                        "locName": "None",
+                        "locDesc": "NO PREMIUM",
+                        "name": "0"
+                    },
+                    "team": {
+                        "id": 10711,
+                        "locName": "ANDRADE MARISOL 008805",
+                        "locDesc": "Andrade Marisol 008805 TEAM",
+                        "name": "ANDRADE MARISOL 008805",
+                        "supervisor": null,
+                        "supervisors": null
+                    },
+                    "workType": "D"
+                },
+                {
+                    "id": 425413,
+                    "workSummaryId": 1389157,
+                    "startTime": "20201220 143700",
+                    "endTime": "20201220 184100",
+                    "minutes": 244,
+                    "rate": 14.7,
+                    "timecode": {
+                        "id": 1,
+                        "locName": "WRK",
+                        "locDesc": "REGULAR PAY",
+                        "name": "WRK"
+                    },
+                    "hourType": {
+                        "id": 1,
+                        "locName": "REG",
+                        "locDesc": "Straightime",
+                        "name": "REG"
+                    },
+                    "job": {
+                        "id": 10036,
+                        "locName": "PROD03",
+                        "locDesc": "PROD03-PROD FRIGO 3",
+                        "name": "PROD03"
+                    },
+                    "department": {
+                        "id": 10004,
+                        "locName": "CA1",
+                        "locDesc": "Dinuba",
+                        "name": "CA1"
+                    },
+                    "project": {
+                        "id": 10170,
+                        "locName": "317203",
+                        "locDesc": "PROD SWING F3",
+                        "name": "317203"
+                    },
+                    "docket": {
+                        "id": 10001,
+                        "locName": "None",
+                        "locDesc": "NO PREMIUM",
+                        "name": "0"
+                    },
+                    "team": {
+                        "id": 10711,
+                        "locName": "ANDRADE MARISOL 008805",
+                        "locDesc": "Andrade Marisol 008805 TEAM",
+                        "name": "ANDRADE MARISOL 008805",
+                        "supervisor": null,
+                        "supervisors": null
+                    },
+                    "workType": "D"
+                }
+            ],
+            "exceptions": null,
+            "issues": null,
+            "wrksMessages": "TimeCodeHourTypeUnauthorize",
+            "readOnly": false,
+            "readOnlyReason": "",
+            "daily": true
+        },
+        {
+            "id": 1389158,
+            "empId": 15513,
+            "workDate": "20201221 000000",
+            "wrkMins": 1557,
+            "authorized": false,
+            "overtime": true,
+            "absent": null,
+            "absentTimeCode": null,
+            "authorizedMessage": "Unauthorized by the system.",
+            "comments": null,
+            "clocks": {
+                "workSummaryId": 1389158,
+                "clocks": [
+                    {
+                        "index": 0,
+                        "type": {
+                            "id": 1,
+                            "name": "ON",
+                            "locName": "ON",
+                            "locDesc": "B"
+                        },
+                        "time": "20201221 143100",
+                        "data": null,
+                        "extData": null,
+                        "lat": null,
+                        "lng": null,
+                        "hasLatLng": null,
+                        "issue": null,
+                        "allowedLocations": null
+                    },
+                    {
+                        "index": 1,
+                        "type": {
+                            "id": 2,
+                            "name": "OFF",
+                            "locName": "OFF",
+                            "locDesc": "E"
+                        },
+                        "time": "20201221 184000",
+                        "data": null,
+                        "extData": "Dtz=US/Pacific&Dst=F&TZ=79",
+                        "lat": null,
+                        "lng": null,
+                        "hasLatLng": null,
+                        "issue": null,
+                        "allowedLocations": null
+                    },
+                    {
+                        "index": 2,
+                        "type": {
+                            "id": 1,
+                            "name": "ON",
+                            "locName": "ON",
+                            "locDesc": "B"
+                        },
+                        "time": "20201221 191100",
+                        "data": null,
+                        "extData": "Dtz=US/Pacific&Dst=F&TZ=79",
+                        "lat": null,
+                        "lng": null,
+                        "hasLatLng": null,
+                        "issue": null,
+                        "allowedLocations": null
+                    },
+                    {
+                        "index": 3,
+                        "type": {
+                            "id": 2,
+                            "name": "OFF",
+                            "locName": "OFF",
+                            "locDesc": "E"
+                        },
+                        "time": "20201221 234100",
+                        "data": null,
+                        "extData": "Dtz=US/Pacific&Dst=F&TZ=79",
+                        "lat": null,
+                        "lng": null,
+                        "hasLatLng": null,
+                        "issue": null,
+                        "allowedLocations": null
+                    }
+                ]
+            },
+            "workDetails": [
+                {
+                    "id": 395533,
+                    "workSummaryId": 1389158,
+                    "startTime": "20201221 143100",
+                    "endTime": "20201221 143700",
+                    "minutes": 6,
+                    "rate": 14.7,
+                    "timecode": {
+                        "id": 10117,
+                        "locName": "EARLY IN",
+                        "locDesc": "EARLY IN",
+                        "name": "EARLY IN"
+                    },
+                    "hourType": {
+                        "id": 1,
+                        "locName": "REG",
+                        "locDesc": "Straightime",
+                        "name": "REG"
+                    },
+                    "job": {
+                        "id": 10036,
+                        "locName": "PROD03",
+                        "locDesc": "PROD03-PROD FRIGO 3",
+                        "name": "PROD03"
+                    },
+                    "department": {
+                        "id": 10004,
+                        "locName": "CA1",
+                        "locDesc": "Dinuba",
+                        "name": "CA1"
+                    },
+                    "project": {
+                        "id": 10170,
+                        "locName": "317203",
+                        "locDesc": "PROD SWING F3",
+                        "name": "317203"
+                    },
+                    "docket": {
+                        "id": 10001,
+                        "locName": "None",
+                        "locDesc": "NO PREMIUM",
+                        "name": "0"
+                    },
+                    "team": {
+                        "id": 10711,
+                        "locName": "ANDRADE MARISOL 008805",
+                        "locDesc": "Andrade Marisol 008805 TEAM",
+                        "name": "ANDRADE MARISOL 008805",
+                        "supervisor": null,
+                        "supervisors": null
+                    },
+                    "workType": "D"
+                },
+                {
+                    "id": 420852,
+                    "workSummaryId": 1389158,
+                    "startTime": null,
+                    "endTime": null,
+                    "minutes": 519,
+                    "rate": 0.25,
+                    "timecode": {
+                        "id": 10008,
+                        "locName": "SWING",
+                        "locDesc": "SWING",
+                        "name": "SWING"
+                    },
+                    "hourType": {
+                        "id": 10002,
+                        "locName": "PREM",
+                        "locDesc": "Premium Pay",
+                        "name": "PREM"
+                    },
+                    "job": {
+                        "id": 10036,
+                        "locName": "PROD03",
+                        "locDesc": "PROD03-PROD FRIGO 3",
+                        "name": "PROD03"
+                    },
+                    "department": {
+                        "id": 10004,
+                        "locName": "CA1",
+                        "locDesc": "Dinuba",
+                        "name": "CA1"
+                    },
+                    "project": {
+                        "id": 10170,
+                        "locName": "317203",
+                        "locDesc": "PROD SWING F3",
+                        "name": "317203"
+                    },
+                    "docket": {
+                        "id": 10001,
+                        "locName": "None",
+                        "locDesc": "NO PREMIUM",
+                        "name": "0"
+                    },
+                    "team": {
+                        "id": 10711,
+                        "locName": "ANDRADE MARISOL 008805",
+                        "locDesc": "Andrade Marisol 008805 TEAM",
+                        "name": "ANDRADE MARISOL 008805",
+                        "supervisor": null,
+                        "supervisors": null
+                    },
+                    "workType": "P"
+                },
+                {
+                    "id": 420853,
+                    "workSummaryId": 1389158,
+                    "startTime": null,
+                    "endTime": null,
+                    "minutes": 519,
+                    "rate": 1.85,
+                    "timecode": {
+                        "id": 10054,
+                        "locName": "SEN 15",
+                        "locDesc": "SENIORITY 15YR",
+                        "name": "SEN 15"
+                    },
+                    "hourType": {
+                        "id": 10002,
+                        "locName": "PREM",
+                        "locDesc": "Premium Pay",
+                        "name": "PREM"
+                    },
+                    "job": {
+                        "id": 10036,
+                        "locName": "PROD03",
+                        "locDesc": "PROD03-PROD FRIGO 3",
+                        "name": "PROD03"
+                    },
+                    "department": {
+                        "id": 10004,
+                        "locName": "CA1",
+                        "locDesc": "Dinuba",
+                        "name": "CA1"
+                    },
+                    "project": {
+                        "id": 10170,
+                        "locName": "317203",
+                        "locDesc": "PROD SWING F3",
+                        "name": "317203"
+                    },
+                    "docket": {
+                        "id": 10001,
+                        "locName": "None",
+                        "locDesc": "NO PREMIUM",
+                        "name": "0"
+                    },
+                    "team": {
+                        "id": 10711,
+                        "locName": "ANDRADE MARISOL 008805",
+                        "locDesc": "Andrade Marisol 008805 TEAM",
+                        "name": "ANDRADE MARISOL 008805",
+                        "supervisor": null,
+                        "supervisors": null
+                    },
+                    "workType": "P"
+                },
+                {
+                    "id": 422026,
+                    "workSummaryId": 1389158,
+                    "startTime": "20201221 184000",
+                    "endTime": "20201221 191100",
+                    "minutes": 31,
+                    "rate": 0.0,
+                    "timecode": {
+                        "id": 10115,
+                        "locName": "REG MEAL",
+                        "locDesc": "REGULAR MEAL",
+                        "name": "REG MEAL"
+                    },
+                    "hourType": {
+                        "id": 0,
+                        "locName": "UNPAID",
+                        "locDesc": "Unpaid Time",
+                        "name": "UNPAID"
+                    },
+                    "job": {
+                        "id": 10036,
+                        "locName": "PROD03",
+                        "locDesc": "PROD03-PROD FRIGO 3",
+                        "name": "PROD03"
+                    },
+                    "department": {
+                        "id": 10004,
+                        "locName": "CA1",
+                        "locDesc": "Dinuba",
+                        "name": "CA1"
+                    },
+                    "project": {
+                        "id": 10170,
+                        "locName": "317203",
+                        "locDesc": "PROD SWING F3",
+                        "name": "317203"
+                    },
+                    "docket": {
+                        "id": 10001,
+                        "locName": "None",
+                        "locDesc": "NO PREMIUM",
+                        "name": "0"
+                    },
+                    "team": {
+                        "id": 10711,
+                        "locName": "ANDRADE MARISOL 008805",
+                        "locDesc": "Andrade Marisol 008805 TEAM",
+                        "name": "ANDRADE MARISOL 008805",
+                        "supervisor": null,
+                        "supervisors": null
+                    },
+                    "workType": "D"
+                },
+                {
+                    "id": 428499,
+                    "workSummaryId": 1389158,
+                    "startTime": "20201221 191100",
+                    "endTime": "20201221 230200",
+                    "minutes": 231,
+                    "rate": 14.7,
+                    "timecode": {
+                        "id": 1,
+                        "locName": "WRK",
+                        "locDesc": "REGULAR PAY",
+                        "name": "WRK"
+                    },
+                    "hourType": {
+                        "id": 1,
+                        "locName": "REG",
+                        "locDesc": "Straightime",
+                        "name": "REG"
+                    },
+                    "job": {
+                        "id": 10036,
+                        "locName": "PROD03",
+                        "locDesc": "PROD03-PROD FRIGO 3",
+                        "name": "PROD03"
+                    },
+                    "department": {
+                        "id": 10004,
+                        "locName": "CA1",
+                        "locDesc": "Dinuba",
+                        "name": "CA1"
+                    },
+                    "project": {
+                        "id": 10170,
+                        "locName": "317203",
+                        "locDesc": "PROD SWING F3",
+                        "name": "317203"
+                    },
+                    "docket": {
+                        "id": 10001,
+                        "locName": "None",
+                        "locDesc": "NO PREMIUM",
+                        "name": "0"
+                    },
+                    "team": {
+                        "id": 10711,
+                        "locName": "ANDRADE MARISOL 008805",
+                        "locDesc": "Andrade Marisol 008805 TEAM",
+                        "name": "ANDRADE MARISOL 008805",
+                        "supervisor": null,
+                        "supervisors": null
+                    },
+                    "workType": "D"
+                },
+                {
+                    "id": 428500,
+                    "workSummaryId": 1389158,
+                    "startTime": "20201221 230200",
+                    "endTime": "20201221 234100",
+                    "minutes": 39,
+                    "rate": 22.05,
+                    "timecode": {
+                        "id": 1,
+                        "locName": "WRK",
+                        "locDesc": "REGULAR PAY",
+                        "name": "WRK"
+                    },
+                    "hourType": {
+                        "id": 3,
+                        "locName": "OT1",
+                        "locDesc": "Overtime",
+                        "name": "OT1"
+                    },
+                    "job": {
+                        "id": 10036,
+                        "locName": "PROD03",
+                        "locDesc": "PROD03-PROD FRIGO 3",
+                        "name": "PROD03"
+                    },
+                    "department": {
+                        "id": 10004,
+                        "locName": "CA1",
+                        "locDesc": "Dinuba",
+                        "name": "CA1"
+                    },
+                    "project": {
+                        "id": 10170,
+                        "locName": "317203",
+                        "locDesc": "PROD SWING F3",
+                        "name": "317203"
+                    },
+                    "docket": {
+                        "id": 10001,
+                        "locName": "None",
+                        "locDesc": "NO PREMIUM",
+                        "name": "0"
+                    },
+                    "team": {
+                        "id": 10711,
+                        "locName": "ANDRADE MARISOL 008805",
+                        "locDesc": "Andrade Marisol 008805 TEAM",
+                        "name": "ANDRADE MARISOL 008805",
+                        "supervisor": null,
+                        "supervisors": null
+                    },
+                    "workType": "D"
+                },
+                {
+                    "id": 570196,
+                    "workSummaryId": 1389158,
+                    "startTime": "20201221 143700",
+                    "endTime": "20201221 184000",
+                    "minutes": 243,
+                    "rate": 14.7,
+                    "timecode": {
+                        "id": 1,
+                        "locName": "WRK",
+                        "locDesc": "REGULAR PAY",
+                        "name": "WRK"
+                    },
+                    "hourType": {
+                        "id": 1,
+                        "locName": "REG",
+                        "locDesc": "Straightime",
+                        "name": "REG"
+                    },
+                    "job": {
+                        "id": 10036,
+                        "locName": "PROD03",
+                        "locDesc": "PROD03-PROD FRIGO 3",
+                        "name": "PROD03"
+                    },
+                    "department": {
+                        "id": 10004,
+                        "locName": "CA1",
+                        "locDesc": "Dinuba",
+                        "name": "CA1"
+                    },
+                    "project": {
+                        "id": 10170,
+                        "locName": "317203",
+                        "locDesc": "PROD SWING F3",
+                        "name": "317203"
+                    },
+                    "docket": {
+                        "id": 10001,
+                        "locName": "None",
+                        "locDesc": "NO PREMIUM",
+                        "name": "0"
+                    },
+                    "team": {
+                        "id": 10711,
+                        "locName": "ANDRADE MARISOL 008805",
+                        "locDesc": "Andrade Marisol 008805 TEAM",
+                        "name": "ANDRADE MARISOL 008805",
+                        "supervisor": null,
+                        "supervisors": null
+                    },
+                    "workType": "D"
+                }
+            ],
+            "exceptions": null,
+            "issues": null,
+            "wrksMessages": "TimeCodeHourTypeUnauthorize",
+            "readOnly": false,
+            "readOnlyReason": "",
+            "daily": true
+        },
+        {
+            "id": 1389159,
+            "empId": 15513,
+            "workDate": "20201222 000000",
+            "wrkMins": 1556,
+            "authorized": false,
+            "overtime": true,
+            "absent": null,
+            "absentTimeCode": null,
+            "authorizedMessage": "Unauthorized by the system.",
+            "comments": null,
+            "clocks": {
+                "workSummaryId": 1389159,
+                "clocks": [
+                    {
+                        "index": 0,
+                        "type": {
+                            "id": 1,
+                            "name": "ON",
+                            "locName": "ON",
+                            "locDesc": "B"
+                        },
+                        "time": "20201222 143000",
+                        "data": null,
+                        "extData": "Dtz=US/Pacific&Dst=F&TZ=79",
+                        "lat": null,
+                        "lng": null,
+                        "hasLatLng": null,
+                        "issue": null,
+                        "allowedLocations": null
+                    },
+                    {
+                        "index": 1,
+                        "type": {
+                            "id": 2,
+                            "name": "OFF",
+                            "locName": "OFF",
+                            "locDesc": "E"
+                        },
+                        "time": "20201222 184100",
+                        "data": null,
+                        "extData": "Dtz=US/Pacific&Dst=F&TZ=79",
+                        "lat": null,
+                        "lng": null,
+                        "hasLatLng": null,
+                        "issue": null,
+                        "allowedLocations": null
+                    },
+                    {
+                        "index": 2,
+                        "type": {
+                            "id": 1,
+                            "name": "ON",
+                            "locName": "ON",
+                            "locDesc": "B"
+                        },
+                        "time": "20201222 191100",
+                        "data": null,
+                        "extData": "Dtz=US/Pacific&Dst=F&TZ=79",
+                        "lat": null,
+                        "lng": null,
+                        "hasLatLng": null,
+                        "issue": null,
+                        "allowedLocations": null
+                    },
+                    {
+                        "index": 3,
+                        "type": {
+                            "id": 2,
+                            "name": "OFF",
+                            "locName": "OFF",
+                            "locDesc": "E"
+                        },
+                        "time": "20201222 233800",
+                        "data": null,
+                        "extData": "Dtz=US/Pacific&Dst=F&TZ=79",
+                        "lat": null,
+                        "lng": null,
+                        "hasLatLng": null,
+                        "issue": null,
+                        "allowedLocations": null
+                    }
+                ]
+            },
+            "workDetails": [
+                {
+                    "id": 425414,
+                    "workSummaryId": 1389159,
+                    "startTime": "20201222 143000",
+                    "endTime": "20201222 143700",
+                    "minutes": 7,
+                    "rate": 14.7,
+                    "timecode": {
+                        "id": 10117,
+                        "locName": "EARLY IN",
+                        "locDesc": "EARLY IN",
+                        "name": "EARLY IN"
+                    },
+                    "hourType": {
+                        "id": 1,
+                        "locName": "REG",
+                        "locDesc": "Straightime",
+                        "name": "REG"
+                    },
+                    "job": {
+                        "id": 10036,
+                        "locName": "PROD03",
+                        "locDesc": "PROD03-PROD FRIGO 3",
+                        "name": "PROD03"
+                    },
+                    "department": {
+                        "id": 10004,
+                        "locName": "CA1",
+                        "locDesc": "Dinuba",
+                        "name": "CA1"
+                    },
+                    "project": {
+                        "id": 10170,
+                        "locName": "317203",
+                        "locDesc": "PROD SWING F3",
+                        "name": "317203"
+                    },
+                    "docket": {
+                        "id": 10001,
+                        "locName": "None",
+                        "locDesc": "NO PREMIUM",
+                        "name": "0"
+                    },
+                    "team": {
+                        "id": 10711,
+                        "locName": "ANDRADE MARISOL 008805",
+                        "locDesc": "Andrade Marisol 008805 TEAM",
+                        "name": "ANDRADE MARISOL 008805",
+                        "supervisor": null,
+                        "supervisors": null
+                    },
+                    "workType": "D"
+                },
+                {
+                    "id": 453569,
+                    "workSummaryId": 1389159,
+                    "startTime": null,
+                    "endTime": null,
+                    "minutes": 518,
+                    "rate": 0.25,
+                    "timecode": {
+                        "id": 10008,
+                        "locName": "SWING",
+                        "locDesc": "SWING",
+                        "name": "SWING"
+                    },
+                    "hourType": {
+                        "id": 10002,
+                        "locName": "PREM",
+                        "locDesc": "Premium Pay",
+                        "name": "PREM"
+                    },
+                    "job": {
+                        "id": 10036,
+                        "locName": "PROD03",
+                        "locDesc": "PROD03-PROD FRIGO 3",
+                        "name": "PROD03"
+                    },
+                    "department": {
+                        "id": 10004,
+                        "locName": "CA1",
+                        "locDesc": "Dinuba",
+                        "name": "CA1"
+                    },
+                    "project": {
+                        "id": 10170,
+                        "locName": "317203",
+                        "locDesc": "PROD SWING F3",
+                        "name": "317203"
+                    },
+                    "docket": {
+                        "id": 10001,
+                        "locName": "None",
+                        "locDesc": "NO PREMIUM",
+                        "name": "0"
+                    },
+                    "team": {
+                        "id": 10711,
+                        "locName": "ANDRADE MARISOL 008805",
+                        "locDesc": "Andrade Marisol 008805 TEAM",
+                        "name": "ANDRADE MARISOL 008805",
+                        "supervisor": null,
+                        "supervisors": null
+                    },
+                    "workType": "P"
+                },
+                {
+                    "id": 453570,
+                    "workSummaryId": 1389159,
+                    "startTime": null,
+                    "endTime": null,
+                    "minutes": 518,
+                    "rate": 1.85,
+                    "timecode": {
+                        "id": 10054,
+                        "locName": "SEN 15",
+                        "locDesc": "SENIORITY 15YR",
+                        "name": "SEN 15"
+                    },
+                    "hourType": {
+                        "id": 10002,
+                        "locName": "PREM",
+                        "locDesc": "Premium Pay",
+                        "name": "PREM"
+                    },
+                    "job": {
+                        "id": 10036,
+                        "locName": "PROD03",
+                        "locDesc": "PROD03-PROD FRIGO 3",
+                        "name": "PROD03"
+                    },
+                    "department": {
+                        "id": 10004,
+                        "locName": "CA1",
+                        "locDesc": "Dinuba",
+                        "name": "CA1"
+                    },
+                    "project": {
+                        "id": 10170,
+                        "locName": "317203",
+                        "locDesc": "PROD SWING F3",
+                        "name": "317203"
+                    },
+                    "docket": {
+                        "id": 10001,
+                        "locName": "None",
+                        "locDesc": "NO PREMIUM",
+                        "name": "0"
+                    },
+                    "team": {
+                        "id": 10711,
+                        "locName": "ANDRADE MARISOL 008805",
+                        "locDesc": "Andrade Marisol 008805 TEAM",
+                        "name": "ANDRADE MARISOL 008805",
+                        "supervisor": null,
+                        "supervisors": null
+                    },
+                    "workType": "P"
+                },
+                {
+                    "id": 453571,
+                    "workSummaryId": 1389159,
+                    "startTime": null,
+                    "endTime": null,
+                    "minutes": 60,
+                    "rate": 14.7,
+                    "timecode": {
+                        "id": 10134,
+                        "locName": "ATT PTS",
+                        "locDesc": "ATTEDANCE POINTS DIRECT",
+                        "name": "ATT PTS"
+                    },
+                    "hourType": {
+                        "id": 10004,
+                        "locName": "ATT",
+                        "locDesc": "Attendance",
+                        "name": "ATT"
+                    },
+                    "job": {
+                        "id": 10036,
+                        "locName": "PROD03",
+                        "locDesc": "PROD03-PROD FRIGO 3",
+                        "name": "PROD03"
+                    },
+                    "department": {
+                        "id": 10004,
+                        "locName": "CA1",
+                        "locDesc": "Dinuba",
+                        "name": "CA1"
+                    },
+                    "project": {
+                        "id": 10170,
+                        "locName": "317203",
+                        "locDesc": "PROD SWING F3",
+                        "name": "317203"
+                    },
+                    "docket": {
+                        "id": 10001,
+                        "locName": "None",
+                        "locDesc": "NO PREMIUM",
+                        "name": "0"
+                    },
+                    "team": {
+                        "id": 10711,
+                        "locName": "ANDRADE MARISOL 008805",
+                        "locDesc": "Andrade Marisol 008805 TEAM",
+                        "name": "ANDRADE MARISOL 008805",
+                        "supervisor": null,
+                        "supervisors": null
+                    },
+                    "workType": "P"
+                },
+                {
+                    "id": 453572,
+                    "workSummaryId": 1389159,
+                    "startTime": "20201222 143700",
+                    "endTime": "20201222 184100",
+                    "minutes": 244,
+                    "rate": 14.7,
+                    "timecode": {
+                        "id": 1,
+                        "locName": "WRK",
+                        "locDesc": "REGULAR PAY",
+                        "name": "WRK"
+                    },
+                    "hourType": {
+                        "id": 1,
+                        "locName": "REG",
+                        "locDesc": "Straightime",
+                        "name": "REG"
+                    },
+                    "job": {
+                        "id": 10036,
+                        "locName": "PROD03",
+                        "locDesc": "PROD03-PROD FRIGO 3",
+                        "name": "PROD03"
+                    },
+                    "department": {
+                        "id": 10004,
+                        "locName": "CA1",
+                        "locDesc": "Dinuba",
+                        "name": "CA1"
+                    },
+                    "project": {
+                        "id": 10170,
+                        "locName": "317203",
+                        "locDesc": "PROD SWING F3",
+                        "name": "317203"
+                    },
+                    "docket": {
+                        "id": 10001,
+                        "locName": "None",
+                        "locDesc": "NO PREMIUM",
+                        "name": "0"
+                    },
+                    "team": {
+                        "id": 10711,
+                        "locName": "ANDRADE MARISOL 008805",
+                        "locDesc": "Andrade Marisol 008805 TEAM",
+                        "name": "ANDRADE MARISOL 008805",
+                        "supervisor": null,
+                        "supervisors": null
+                    },
+                    "workType": "D"
+                },
+                {
+                    "id": 453573,
+                    "workSummaryId": 1389159,
+                    "startTime": "20201222 184100",
+                    "endTime": "20201222 191100",
+                    "minutes": 30,
+                    "rate": 0.0,
+                    "timecode": {
+                        "id": 10115,
+                        "locName": "REG MEAL",
+                        "locDesc": "REGULAR MEAL",
+                        "name": "REG MEAL"
+                    },
+                    "hourType": {
+                        "id": 0,
+                        "locName": "UNPAID",
+                        "locDesc": "Unpaid Time",
+                        "name": "UNPAID"
+                    },
+                    "job": {
+                        "id": 10036,
+                        "locName": "PROD03",
+                        "locDesc": "PROD03-PROD FRIGO 3",
+                        "name": "PROD03"
+                    },
+                    "department": {
+                        "id": 10004,
+                        "locName": "CA1",
+                        "locDesc": "Dinuba",
+                        "name": "CA1"
+                    },
+                    "project": {
+                        "id": 10170,
+                        "locName": "317203",
+                        "locDesc": "PROD SWING F3",
+                        "name": "317203"
+                    },
+                    "docket": {
+                        "id": 10001,
+                        "locName": "None",
+                        "locDesc": "NO PREMIUM",
+                        "name": "0"
+                    },
+                    "team": {
+                        "id": 10711,
+                        "locName": "ANDRADE MARISOL 008805",
+                        "locDesc": "Andrade Marisol 008805 TEAM",
+                        "name": "ANDRADE MARISOL 008805",
+                        "supervisor": null,
+                        "supervisors": null
+                    },
+                    "workType": "D"
+                },
+                {
+                    "id": 462314,
+                    "workSummaryId": 1389159,
+                    "startTime": "20201222 191100",
+                    "endTime": "20201222 230000",
+                    "minutes": 229,
+                    "rate": 14.7,
+                    "timecode": {
+                        "id": 1,
+                        "locName": "WRK",
+                        "locDesc": "REGULAR PAY",
+                        "name": "WRK"
+                    },
+                    "hourType": {
+                        "id": 1,
+                        "locName": "REG",
+                        "locDesc": "Straightime",
+                        "name": "REG"
+                    },
+                    "job": {
+                        "id": 10036,
+                        "locName": "PROD03",
+                        "locDesc": "PROD03-PROD FRIGO 3",
+                        "name": "PROD03"
+                    },
+                    "department": {
+                        "id": 10004,
+                        "locName": "CA1",
+                        "locDesc": "Dinuba",
+                        "name": "CA1"
+                    },
+                    "project": {
+                        "id": 10170,
+                        "locName": "317203",
+                        "locDesc": "PROD SWING F3",
+                        "name": "317203"
+                    },
+                    "docket": {
+                        "id": 10001,
+                        "locName": "None",
+                        "locDesc": "NO PREMIUM",
+                        "name": "0"
+                    },
+                    "team": {
+                        "id": 10711,
+                        "locName": "ANDRADE MARISOL 008805",
+                        "locDesc": "Andrade Marisol 008805 TEAM",
+                        "name": "ANDRADE MARISOL 008805",
+                        "supervisor": null,
+                        "supervisors": null
+                    },
+                    "workType": "D"
+                },
+                {
+                    "id": 462315,
+                    "workSummaryId": 1389159,
+                    "startTime": "20201222 230000",
+                    "endTime": "20201222 233800",
+                    "minutes": 38,
+                    "rate": 22.05,
+                    "timecode": {
+                        "id": 1,
+                        "locName": "WRK",
+                        "locDesc": "REGULAR PAY",
+                        "name": "WRK"
+                    },
+                    "hourType": {
+                        "id": 3,
+                        "locName": "OT1",
+                        "locDesc": "Overtime",
+                        "name": "OT1"
+                    },
+                    "job": {
+                        "id": 10036,
+                        "locName": "PROD03",
+                        "locDesc": "PROD03-PROD FRIGO 3",
+                        "name": "PROD03"
+                    },
+                    "department": {
+                        "id": 10004,
+                        "locName": "CA1",
+                        "locDesc": "Dinuba",
+                        "name": "CA1"
+                    },
+                    "project": {
+                        "id": 10170,
+                        "locName": "317203",
+                        "locDesc": "PROD SWING F3",
+                        "name": "317203"
+                    },
+                    "docket": {
+                        "id": 10001,
+                        "locName": "None",
+                        "locDesc": "NO PREMIUM",
+                        "name": "0"
+                    },
+                    "team": {
+                        "id": 10711,
+                        "locName": "ANDRADE MARISOL 008805",
+                        "locDesc": "Andrade Marisol 008805 TEAM",
+                        "name": "ANDRADE MARISOL 008805",
+                        "supervisor": null,
+                        "supervisors": null
+                    },
+                    "workType": "D"
+                },
+                {
+                    "id": 462316,
+                    "workSummaryId": 1389159,
+                    "startTime": "20201222 233800",
+                    "endTime": "20201222 234000",
+                    "minutes": 2,
+                    "rate": 14.7,
+                    "timecode": {
+                        "id": 10124,
+                        "locName": "OUTGTRT1",
+                        "locDesc": "EARLY OUT UNAPPROVED G1 HR",
+                        "name": "OUTGTRT1"
+                    },
+                    "hourType": {
+                        "id": 10004,
+                        "locName": "ATT",
+                        "locDesc": "Attendance",
+                        "name": "ATT"
+                    },
+                    "job": {
+                        "id": 10036,
+                        "locName": "PROD03",
+                        "locDesc": "PROD03-PROD FRIGO 3",
+                        "name": "PROD03"
+                    },
+                    "department": {
+                        "id": 10004,
+                        "locName": "CA1",
+                        "locDesc": "Dinuba",
+                        "name": "CA1"
+                    },
+                    "project": {
+                        "id": 10170,
+                        "locName": "317203",
+                        "locDesc": "PROD SWING F3",
+                        "name": "317203"
+                    },
+                    "docket": {
+                        "id": 10001,
+                        "locName": "None",
+                        "locDesc": "NO PREMIUM",
+                        "name": "0"
+                    },
+                    "team": {
+                        "id": 10711,
+                        "locName": "ANDRADE MARISOL 008805",
+                        "locDesc": "Andrade Marisol 008805 TEAM",
+                        "name": "ANDRADE MARISOL 008805",
+                        "supervisor": null,
+                        "supervisors": null
+                    },
+                    "workType": "D"
+                }
+            ],
+            "exceptions": null,
+            "issues": null,
+            "wrksMessages": "TimeCodeHourTypeUnauthorize",
+            "readOnly": false,
+            "readOnlyReason": "",
+            "daily": true
+        },
+        {
+            "id": 1389160,
+            "empId": 15513,
+            "workDate": "20201223 000000",
+            "wrkMins": 1450,
+            "authorized": false,
+            "overtime": null,
+            "absent": null,
+            "absentTimeCode": null,
+            "authorizedMessage": "Unauthorized by the system.",
+            "comments": null,
+            "clocks": {
+                "workSummaryId": 1389160,
+                "clocks": [
+                    {
+                        "index": 0,
+                        "type": {
+                            "id": 1,
+                            "name": "ON",
+                            "locName": "ON",
+                            "locDesc": "B"
+                        },
+                        "time": "20201223 143100",
+                        "data": null,
+                        "extData": "Dtz=US/Pacific&Dst=F&TZ=79",
+                        "lat": null,
+                        "lng": null,
+                        "hasLatLng": null,
+                        "issue": null,
+                        "allowedLocations": null
+                    },
+                    {
+                        "index": 1,
+                        "type": {
+                            "id": 2,
+                            "name": "OFF",
+                            "locName": "OFF",
+                            "locDesc": "E"
+                        },
+                        "time": "20201223 184000",
+                        "data": null,
+                        "extData": "Dtz=US/Pacific&Dst=F&TZ=79",
+                        "lat": null,
+                        "lng": null,
+                        "hasLatLng": null,
+                        "issue": null,
+                        "allowedLocations": null
+                    },
+                    {
+                        "index": 2,
+                        "type": {
+                            "id": 1,
+                            "name": "ON",
+                            "locName": "ON",
+                            "locDesc": "B"
+                        },
+                        "time": "20201223 191100",
+                        "data": null,
+                        "extData": "Dtz=US/Pacific&Dst=F&TZ=79",
+                        "lat": null,
+                        "lng": null,
+                        "hasLatLng": null,
+                        "issue": null,
+                        "allowedLocations": null
+                    },
+                    {
+                        "index": 3,
+                        "type": {
+                            "id": 2,
+                            "name": "OFF",
+                            "locName": "OFF",
+                            "locDesc": "E"
+                        },
+                        "time": "20201223 224800",
+                        "data": null,
+                        "extData": "Dtz=US/Pacific&Dst=F&TZ=79",
+                        "lat": null,
+                        "lng": null,
+                        "hasLatLng": null,
+                        "issue": null,
+                        "allowedLocations": null
+                    }
+                ]
+            },
+            "workDetails": [
+                {
+                    "id": 425415,
+                    "workSummaryId": 1389160,
+                    "startTime": "20201223 143100",
+                    "endTime": "20201223 143700",
+                    "minutes": 6,
+                    "rate": 14.7,
+                    "timecode": {
+                        "id": 10117,
+                        "locName": "EARLY IN",
+                        "locDesc": "EARLY IN",
+                        "name": "EARLY IN"
+                    },
+                    "hourType": {
+                        "id": 1,
+                        "locName": "REG",
+                        "locDesc": "Straightime",
+                        "name": "REG"
+                    },
+                    "job": {
+                        "id": 10036,
+                        "locName": "PROD03",
+                        "locDesc": "PROD03-PROD FRIGO 3",
+                        "name": "PROD03"
+                    },
+                    "department": {
+                        "id": 10004,
+                        "locName": "CA1",
+                        "locDesc": "Dinuba",
+                        "name": "CA1"
+                    },
+                    "project": {
+                        "id": 10170,
+                        "locName": "317203",
+                        "locDesc": "PROD SWING F3",
+                        "name": "317203"
+                    },
+                    "docket": {
+                        "id": 10001,
+                        "locName": "None",
+                        "locDesc": "NO PREMIUM",
+                        "name": "0"
+                    },
+                    "team": {
+                        "id": 10711,
+                        "locName": "ANDRADE MARISOL 008805",
+                        "locDesc": "Andrade Marisol 008805 TEAM",
+                        "name": "ANDRADE MARISOL 008805",
+                        "supervisor": null,
+                        "supervisors": null
+                    },
+                    "workType": "D"
+                },
+                {
+                    "id": 515394,
+                    "workSummaryId": 1389160,
+                    "startTime": null,
+                    "endTime": null,
+                    "minutes": 466,
+                    "rate": 0.25,
+                    "timecode": {
+                        "id": 10008,
+                        "locName": "SWING",
+                        "locDesc": "SWING",
+                        "name": "SWING"
+                    },
+                    "hourType": {
+                        "id": 10002,
+                        "locName": "PREM",
+                        "locDesc": "Premium Pay",
+                        "name": "PREM"
+                    },
+                    "job": {
+                        "id": 10036,
+                        "locName": "PROD03",
+                        "locDesc": "PROD03-PROD FRIGO 3",
+                        "name": "PROD03"
+                    },
+                    "department": {
+                        "id": 10004,
+                        "locName": "CA1",
+                        "locDesc": "Dinuba",
+                        "name": "CA1"
+                    },
+                    "project": {
+                        "id": 10170,
+                        "locName": "317203",
+                        "locDesc": "PROD SWING F3",
+                        "name": "317203"
+                    },
+                    "docket": {
+                        "id": 10001,
+                        "locName": "None",
+                        "locDesc": "NO PREMIUM",
+                        "name": "0"
+                    },
+                    "team": {
+                        "id": 10711,
+                        "locName": "ANDRADE MARISOL 008805",
+                        "locDesc": "Andrade Marisol 008805 TEAM",
+                        "name": "ANDRADE MARISOL 008805",
+                        "supervisor": null,
+                        "supervisors": null
+                    },
+                    "workType": "P"
+                },
+                {
+                    "id": 515395,
+                    "workSummaryId": 1389160,
+                    "startTime": null,
+                    "endTime": null,
+                    "minutes": 466,
+                    "rate": 1.85,
+                    "timecode": {
+                        "id": 10054,
+                        "locName": "SEN 15",
+                        "locDesc": "SENIORITY 15YR",
+                        "name": "SEN 15"
+                    },
+                    "hourType": {
+                        "id": 10002,
+                        "locName": "PREM",
+                        "locDesc": "Premium Pay",
+                        "name": "PREM"
+                    },
+                    "job": {
+                        "id": 10036,
+                        "locName": "PROD03",
+                        "locDesc": "PROD03-PROD FRIGO 3",
+                        "name": "PROD03"
+                    },
+                    "department": {
+                        "id": 10004,
+                        "locName": "CA1",
+                        "locDesc": "Dinuba",
+                        "name": "CA1"
+                    },
+                    "project": {
+                        "id": 10170,
+                        "locName": "317203",
+                        "locDesc": "PROD SWING F3",
+                        "name": "317203"
+                    },
+                    "docket": {
+                        "id": 10001,
+                        "locName": "None",
+                        "locDesc": "NO PREMIUM",
+                        "name": "0"
+                    },
+                    "team": {
+                        "id": 10711,
+                        "locName": "ANDRADE MARISOL 008805",
+                        "locDesc": "Andrade Marisol 008805 TEAM",
+                        "name": "ANDRADE MARISOL 008805",
+                        "supervisor": null,
+                        "supervisors": null
+                    },
+                    "workType": "P"
+                },
+                {
+                    "id": 515396,
+                    "workSummaryId": 1389160,
+                    "startTime": null,
+                    "endTime": null,
+                    "minutes": 60,
+                    "rate": 14.7,
+                    "timecode": {
+                        "id": 10134,
+                        "locName": "ATT PTS",
+                        "locDesc": "ATTEDANCE POINTS DIRECT",
+                        "name": "ATT PTS"
+                    },
+                    "hourType": {
+                        "id": 10004,
+                        "locName": "ATT",
+                        "locDesc": "Attendance",
+                        "name": "ATT"
+                    },
+                    "job": {
+                        "id": 10036,
+                        "locName": "PROD03",
+                        "locDesc": "PROD03-PROD FRIGO 3",
+                        "name": "PROD03"
+                    },
+                    "department": {
+                        "id": 10004,
+                        "locName": "CA1",
+                        "locDesc": "Dinuba",
+                        "name": "CA1"
+                    },
+                    "project": {
+                        "id": 10170,
+                        "locName": "317203",
+                        "locDesc": "PROD SWING F3",
+                        "name": "317203"
+                    },
+                    "docket": {
+                        "id": 10001,
+                        "locName": "None",
+                        "locDesc": "NO PREMIUM",
+                        "name": "0"
+                    },
+                    "team": {
+                        "id": 10711,
+                        "locName": "ANDRADE MARISOL 008805",
+                        "locDesc": "Andrade Marisol 008805 TEAM",
+                        "name": "ANDRADE MARISOL 008805",
+                        "supervisor": null,
+                        "supervisors": null
+                    },
+                    "workType": "P"
+                },
+                {
+                    "id": 515397,
+                    "workSummaryId": 1389160,
+                    "startTime": "20201223 143700",
+                    "endTime": "20201223 184000",
+                    "minutes": 243,
+                    "rate": 14.7,
+                    "timecode": {
+                        "id": 1,
+                        "locName": "WRK",
+                        "locDesc": "REGULAR PAY",
+                        "name": "WRK"
+                    },
+                    "hourType": {
+                        "id": 1,
+                        "locName": "REG",
+                        "locDesc": "Straightime",
+                        "name": "REG"
+                    },
+                    "job": {
+                        "id": 10036,
+                        "locName": "PROD03",
+                        "locDesc": "PROD03-PROD FRIGO 3",
+                        "name": "PROD03"
+                    },
+                    "department": {
+                        "id": 10004,
+                        "locName": "CA1",
+                        "locDesc": "Dinuba",
+                        "name": "CA1"
+                    },
+                    "project": {
+                        "id": 10170,
+                        "locName": "317203",
+                        "locDesc": "PROD SWING F3",
+                        "name": "317203"
+                    },
+                    "docket": {
+                        "id": 10001,
+                        "locName": "None",
+                        "locDesc": "NO PREMIUM",
+                        "name": "0"
+                    },
+                    "team": {
+                        "id": 10711,
+                        "locName": "ANDRADE MARISOL 008805",
+                        "locDesc": "Andrade Marisol 008805 TEAM",
+                        "name": "ANDRADE MARISOL 008805",
+                        "supervisor": null,
+                        "supervisors": null
+                    },
+                    "workType": "D"
+                },
+                {
+                    "id": 515398,
+                    "workSummaryId": 1389160,
+                    "startTime": "20201223 184000",
+                    "endTime": "20201223 191100",
+                    "minutes": 31,
+                    "rate": 0.0,
+                    "timecode": {
+                        "id": 10115,
+                        "locName": "REG MEAL",
+                        "locDesc": "REGULAR MEAL",
+                        "name": "REG MEAL"
+                    },
+                    "hourType": {
+                        "id": 0,
+                        "locName": "UNPAID",
+                        "locDesc": "Unpaid Time",
+                        "name": "UNPAID"
+                    },
+                    "job": {
+                        "id": 10036,
+                        "locName": "PROD03",
+                        "locDesc": "PROD03-PROD FRIGO 3",
+                        "name": "PROD03"
+                    },
+                    "department": {
+                        "id": 10004,
+                        "locName": "CA1",
+                        "locDesc": "Dinuba",
+                        "name": "CA1"
+                    },
+                    "project": {
+                        "id": 10170,
+                        "locName": "317203",
+                        "locDesc": "PROD SWING F3",
+                        "name": "317203"
+                    },
+                    "docket": {
+                        "id": 10001,
+                        "locName": "None",
+                        "locDesc": "NO PREMIUM",
+                        "name": "0"
+                    },
+                    "team": {
+                        "id": 10711,
+                        "locName": "ANDRADE MARISOL 008805",
+                        "locDesc": "Andrade Marisol 008805 TEAM",
+                        "name": "ANDRADE MARISOL 008805",
+                        "supervisor": null,
+                        "supervisors": null
+                    },
+                    "workType": "D"
+                },
+                {
+                    "id": 518732,
+                    "workSummaryId": 1389160,
+                    "startTime": "20201223 191100",
+                    "endTime": "20201223 224800",
+                    "minutes": 217,
+                    "rate": 14.7,
+                    "timecode": {
+                        "id": 1,
+                        "locName": "WRK",
+                        "locDesc": "REGULAR PAY",
+                        "name": "WRK"
+                    },
+                    "hourType": {
+                        "id": 1,
+                        "locName": "REG",
+                        "locDesc": "Straightime",
+                        "name": "REG"
+                    },
+                    "job": {
+                        "id": 10036,
+                        "locName": "PROD03",
+                        "locDesc": "PROD03-PROD FRIGO 3",
+                        "name": "PROD03"
+                    },
+                    "department": {
+                        "id": 10004,
+                        "locName": "CA1",
+                        "locDesc": "Dinuba",
+                        "name": "CA1"
+                    },
+                    "project": {
+                        "id": 10170,
+                        "locName": "317203",
+                        "locDesc": "PROD SWING F3",
+                        "name": "317203"
+                    },
+                    "docket": {
+                        "id": 10001,
+                        "locName": "None",
+                        "locDesc": "NO PREMIUM",
+                        "name": "0"
+                    },
+                    "team": {
+                        "id": 10711,
+                        "locName": "ANDRADE MARISOL 008805",
+                        "locDesc": "Andrade Marisol 008805 TEAM",
+                        "name": "ANDRADE MARISOL 008805",
+                        "supervisor": null,
+                        "supervisors": null
+                    },
+                    "workType": "D"
+                },
+                {
+                    "id": 518733,
+                    "workSummaryId": 1389160,
+                    "startTime": "20201223 224800",
+                    "endTime": "20201223 234000",
+                    "minutes": 52,
+                    "rate": 14.7,
+                    "timecode": {
+                        "id": 10124,
+                        "locName": "OUTGTRT1",
+                        "locDesc": "EARLY OUT UNAPPROVED G1 HR",
+                        "name": "OUTGTRT1"
+                    },
+                    "hourType": {
+                        "id": 10004,
+                        "locName": "ATT",
+                        "locDesc": "Attendance",
+                        "name": "ATT"
+                    },
+                    "job": {
+                        "id": 10036,
+                        "locName": "PROD03",
+                        "locDesc": "PROD03-PROD FRIGO 3",
+                        "name": "PROD03"
+                    },
+                    "department": {
+                        "id": 10004,
+                        "locName": "CA1",
+                        "locDesc": "Dinuba",
+                        "name": "CA1"
+                    },
+                    "project": {
+                        "id": 10170,
+                        "locName": "317203",
+                        "locDesc": "PROD SWING F3",
+                        "name": "317203"
+                    },
+                    "docket": {
+                        "id": 10001,
+                        "locName": "None",
+                        "locDesc": "NO PREMIUM",
+                        "name": "0"
+                    },
+                    "team": {
+                        "id": 10711,
+                        "locName": "ANDRADE MARISOL 008805",
+                        "locDesc": "Andrade Marisol 008805 TEAM",
+                        "name": "ANDRADE MARISOL 008805",
+                        "supervisor": null,
+                        "supervisors": null
+                    },
+                    "workType": "D"
+                }
+            ],
+            "exceptions": null,
+            "issues": null,
+            "wrksMessages": "TimeCodeHourTypeUnauthorize",
+            "readOnly": false,
+            "readOnlyReason": "",
+            "daily": true
+        },
+        {
+            "id": 1389161,
+            "empId": 15513,
+            "workDate": "20201224 000000",
+            "wrkMins": 960,
+            "authorized": false,
+            "overtime": null,
+            "absent": null,
+            "absentTimeCode": null,
+            "authorizedMessage": "Unauthorized by the system.",
+            "comments": null,
+            "clocks": null,
+            "workDetails": [
+                {
+                    "id": 539977,
+                    "workSummaryId": 1389161,
+                    "startTime": null,
+                    "endTime": null,
+                    "minutes": 480,
+                    "rate": 14.7,
+                    "timecode": {
+                        "id": 10030,
+                        "locName": "HOL",
+                        "locDesc": "HOLIDAY PAY",
+                        "name": "HOL"
+                    },
+                    "hourType": {
+                        "id": 10002,
+                        "locName": "PREM",
+                        "locDesc": "Premium Pay",
+                        "name": "PREM"
+                    },
+                    "job": {
+                        "id": 10036,
+                        "locName": "PROD03",
+                        "locDesc": "PROD03-PROD FRIGO 3",
+                        "name": "PROD03"
+                    },
+                    "department": {
+                        "id": 10004,
+                        "locName": "CA1",
+                        "locDesc": "Dinuba",
+                        "name": "CA1"
+                    },
+                    "project": {
+                        "id": 10170,
+                        "locName": "317203",
+                        "locDesc": "PROD SWING F3",
+                        "name": "317203"
+                    },
+                    "docket": {
+                        "id": 10001,
+                        "locName": "None",
+                        "locDesc": "NO PREMIUM",
+                        "name": "0"
+                    },
+                    "team": {
+                        "id": 10711,
+                        "locName": "ANDRADE MARISOL 008805",
+                        "locDesc": "Andrade Marisol 008805 TEAM",
+                        "name": "ANDRADE MARISOL 008805",
+                        "supervisor": null,
+                        "supervisors": null
+                    },
+                    "workType": "P"
+                },
+                {
+                    "id": 539978,
+                    "workSummaryId": 1389161,
+                    "startTime": null,
+                    "endTime": null,
+                    "minutes": 480,
+                    "rate": 14.7,
+                    "timecode": {
+                        "id": 10054,
+                        "locName": "SEN 15",
+                        "locDesc": "SENIORITY 15YR",
+                        "name": "SEN 15"
+                    },
+                    "hourType": {
+                        "id": 10002,
+                        "locName": "PREM",
+                        "locDesc": "Premium Pay",
+                        "name": "PREM"
+                    },
+                    "job": {
+                        "id": 10036,
+                        "locName": "PROD03",
+                        "locDesc": "PROD03-PROD FRIGO 3",
+                        "name": "PROD03"
+                    },
+                    "department": {
+                        "id": 10004,
+                        "locName": "CA1",
+                        "locDesc": "Dinuba",
+                        "name": "CA1"
+                    },
+                    "project": {
+                        "id": 10170,
+                        "locName": "317203",
+                        "locDesc": "PROD SWING F3",
+                        "name": "317203"
+                    },
+                    "docket": {
+                        "id": 10001,
+                        "locName": "None",
+                        "locDesc": "NO PREMIUM",
+                        "name": "0"
+                    },
+                    "team": {
+                        "id": 10711,
+                        "locName": "ANDRADE MARISOL 008805",
+                        "locDesc": "Andrade Marisol 008805 TEAM",
+                        "name": "ANDRADE MARISOL 008805",
+                        "supervisor": null,
+                        "supervisors": null
+                    },
+                    "workType": "P"
+                },
+                {
+                    "id": 539979,
+                    "workSummaryId": 1389161,
+                    "startTime": null,
+                    "endTime": null,
+                    "minutes": 480,
+                    "rate": 14.7,
+                    "timecode": {
+                        "id": 10008,
+                        "locName": "SWING",
+                        "locDesc": "SWING",
+                        "name": "SWING"
+                    },
+                    "hourType": {
+                        "id": 10002,
+                        "locName": "PREM",
+                        "locDesc": "Premium Pay",
+                        "name": "PREM"
+                    },
+                    "job": {
+                        "id": 10036,
+                        "locName": "PROD03",
+                        "locDesc": "PROD03-PROD FRIGO 3",
+                        "name": "PROD03"
+                    },
+                    "department": {
+                        "id": 10004,
+                        "locName": "CA1",
+                        "locDesc": "Dinuba",
+                        "name": "CA1"
+                    },
+                    "project": {
+                        "id": 10170,
+                        "locName": "317203",
+                        "locDesc": "PROD SWING F3",
+                        "name": "317203"
+                    },
+                    "docket": {
+                        "id": 10001,
+                        "locName": "None",
+                        "locDesc": "NO PREMIUM",
+                        "name": "0"
+                    },
+                    "team": {
+                        "id": 10711,
+                        "locName": "ANDRADE MARISOL 008805",
+                        "locDesc": "Andrade Marisol 008805 TEAM",
+                        "name": "ANDRADE MARISOL 008805",
+                        "supervisor": null,
+                        "supervisors": null
+                    },
+                    "workType": "P"
+                }
+            ],
+            "exceptions": null,
+            "issues": null,
+            "wrksMessages": "TimeCodeHourTypeUnauthorize",
+            "readOnly": false,
+            "readOnlyReason": "",
+            "daily": true
+        },
+        {
+            "id": 1389162,
+            "empId": 15513,
+            "workDate": "20201225 000000",
+            "wrkMins": 960,
+            "authorized": false,
+            "overtime": null,
+            "absent": null,
+            "absentTimeCode": null,
+            "authorizedMessage": "Unauthorized by the system.",
+            "comments": null,
+            "clocks": null,
+            "workDetails": [
+                {
+                    "id": 539980,
+                    "workSummaryId": 1389162,
+                    "startTime": null,
+                    "endTime": null,
+                    "minutes": 480,
+                    "rate": 14.7,
+                    "timecode": {
+                        "id": 10030,
+                        "locName": "HOL",
+                        "locDesc": "HOLIDAY PAY",
+                        "name": "HOL"
+                    },
+                    "hourType": {
+                        "id": 10002,
+                        "locName": "PREM",
+                        "locDesc": "Premium Pay",
+                        "name": "PREM"
+                    },
+                    "job": {
+                        "id": 10036,
+                        "locName": "PROD03",
+                        "locDesc": "PROD03-PROD FRIGO 3",
+                        "name": "PROD03"
+                    },
+                    "department": {
+                        "id": 10004,
+                        "locName": "CA1",
+                        "locDesc": "Dinuba",
+                        "name": "CA1"
+                    },
+                    "project": {
+                        "id": 10170,
+                        "locName": "317203",
+                        "locDesc": "PROD SWING F3",
+                        "name": "317203"
+                    },
+                    "docket": {
+                        "id": 10001,
+                        "locName": "None",
+                        "locDesc": "NO PREMIUM",
+                        "name": "0"
+                    },
+                    "team": {
+                        "id": 10711,
+                        "locName": "ANDRADE MARISOL 008805",
+                        "locDesc": "Andrade Marisol 008805 TEAM",
+                        "name": "ANDRADE MARISOL 008805",
+                        "supervisor": null,
+                        "supervisors": null
+                    },
+                    "workType": "P"
+                },
+                {
+                    "id": 539981,
+                    "workSummaryId": 1389162,
+                    "startTime": null,
+                    "endTime": null,
+                    "minutes": 480,
+                    "rate": 14.7,
+                    "timecode": {
+                        "id": 10054,
+                        "locName": "SEN 15",
+                        "locDesc": "SENIORITY 15YR",
+                        "name": "SEN 15"
+                    },
+                    "hourType": {
+                        "id": 10002,
+                        "locName": "PREM",
+                        "locDesc": "Premium Pay",
+                        "name": "PREM"
+                    },
+                    "job": {
+                        "id": 10036,
+                        "locName": "PROD03",
+                        "locDesc": "PROD03-PROD FRIGO 3",
+                        "name": "PROD03"
+                    },
+                    "department": {
+                        "id": 10004,
+                        "locName": "CA1",
+                        "locDesc": "Dinuba",
+                        "name": "CA1"
+                    },
+                    "project": {
+                        "id": 10170,
+                        "locName": "317203",
+                        "locDesc": "PROD SWING F3",
+                        "name": "317203"
+                    },
+                    "docket": {
+                        "id": 10001,
+                        "locName": "None",
+                        "locDesc": "NO PREMIUM",
+                        "name": "0"
+                    },
+                    "team": {
+                        "id": 10711,
+                        "locName": "ANDRADE MARISOL 008805",
+                        "locDesc": "Andrade Marisol 008805 TEAM",
+                        "name": "ANDRADE MARISOL 008805",
+                        "supervisor": null,
+                        "supervisors": null
+                    },
+                    "workType": "P"
+                },
+                {
+                    "id": 539982,
+                    "workSummaryId": 1389162,
+                    "startTime": null,
+                    "endTime": null,
+                    "minutes": 480,
+                    "rate": 14.7,
+                    "timecode": {
+                        "id": 10008,
+                        "locName": "SWING",
+                        "locDesc": "SWING",
+                        "name": "SWING"
+                    },
+                    "hourType": {
+                        "id": 10002,
+                        "locName": "PREM",
+                        "locDesc": "Premium Pay",
+                        "name": "PREM"
+                    },
+                    "job": {
+                        "id": 10036,
+                        "locName": "PROD03",
+                        "locDesc": "PROD03-PROD FRIGO 3",
+                        "name": "PROD03"
+                    },
+                    "department": {
+                        "id": 10004,
+                        "locName": "CA1",
+                        "locDesc": "Dinuba",
+                        "name": "CA1"
+                    },
+                    "project": {
+                        "id": 10170,
+                        "locName": "317203",
+                        "locDesc": "PROD SWING F3",
+                        "name": "317203"
+                    },
+                    "docket": {
+                        "id": 10001,
+                        "locName": "None",
+                        "locDesc": "NO PREMIUM",
+                        "name": "0"
+                    },
+                    "team": {
+                        "id": 10711,
+                        "locName": "ANDRADE MARISOL 008805",
+                        "locDesc": "Andrade Marisol 008805 TEAM",
+                        "name": "ANDRADE MARISOL 008805",
+                        "supervisor": null,
+                        "supervisors": null
+                    },
+                    "workType": "P"
+                }
+            ],
+            "exceptions": null,
+            "issues": null,
+            "wrksMessages": "TimeCodeHourTypeUnauthorize",
+            "readOnly": false,
+            "readOnlyReason": "",
+            "daily": true
+        },
+        {
+            "id": 1389163,
+            "empId": 15513,
+            "workDate": "20201226 000000",
+            "wrkMins": 0,
+            "authorized": true,
+            "overtime": null,
+            "absent": null,
+            "absentTimeCode": null,
+            "authorizedMessage": "Authorized by the system.",
+            "comments": null,
+            "clocks": null,
+            "workDetails": [],
+            "exceptions": null,
+            "issues": null,
+            "wrksMessages": null,
+            "readOnly": false,
+            "readOnlyReason": "",
+            "daily": true
+        },
+        {
+            "id": 1389164,
+            "empId": 15513,
+            "workDate": "20201227 000000",
+            "wrkMins": 0,
+            "authorized": true,
+            "overtime": null,
+            "absent": null,
+            "absentTimeCode": null,
+            "authorizedMessage": "Authorized by the system.",
+            "comments": null,
+            "clocks": null,
+            "workDetails": [],
+            "exceptions": null,
+            "issues": null,
+            "wrksMessages": null,
+            "readOnly": false,
+            "readOnlyReason": "",
+            "daily": true
+        },
+        {
+            "id": 1389165,
+            "empId": 15513,
+            "workDate": "20201228 000000",
+            "wrkMins": 0,
+            "authorized": true,
+            "overtime": null,
+            "absent": null,
+            "absentTimeCode": null,
+            "authorizedMessage": "Authorized by the system.",
+            "comments": null,
+            "clocks": null,
+            "workDetails": [],
+            "exceptions": null,
+            "issues": null,
+            "wrksMessages": null,
+            "readOnly": false,
+            "readOnlyReason": "",
+            "daily": true
+        },
+        {
+            "id": 1389166,
+            "empId": 15513,
+            "workDate": "20201229 000000",
+            "wrkMins": 0,
+            "authorized": true,
+            "overtime": null,
+            "absent": null,
+            "absentTimeCode": null,
+            "authorizedMessage": "Authorized by the system.",
+            "comments": null,
+            "clocks": null,
+            "workDetails": [],
+            "exceptions": null,
+            "issues": null,
+            "wrksMessages": null,
+            "readOnly": false,
+            "readOnlyReason": "",
+            "daily": true
+        },
+        {
+            "id": 1481628,
+            "empId": 15513,
+            "workDate": "20201230 000000",
+            "wrkMins": 0,
+            "authorized": true,
+            "overtime": null,
+            "absent": null,
+            "absentTimeCode": null,
+            "authorizedMessage": "Authorized by the system.",
+            "comments": null,
+            "clocks": null,
+            "workDetails": [],
+            "exceptions": null,
+            "issues": null,
+            "wrksMessages": null,
+            "readOnly": false,
+            "readOnlyReason": "",
+            "daily": true
+        }
+    ]
+}

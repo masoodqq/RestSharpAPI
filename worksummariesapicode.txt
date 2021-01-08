@@ -1,0 +1,465 @@
+#region Help:  Introduction to the script task
+/* The Script Task allows you to perform virtually any operation that can be accomplished in
+ * a .Net application within the context of an Integration Services control flow. 
+ * 
+ * Expand the other regions which have "Help" prefixes for examples of specific ways to use
+ * Integration Services features within this script task. */
+#endregion
+
+
+#region Namespaces
+using System;
+using System.Net.Http.Headers;
+using System.Data;
+using Microsoft.SqlServer.Dts.Runtime;
+using System.Windows.Forms;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.ComponentModel;
+using RestSharp; //install NuGet Packages RestSharp
+using RestSharp.Authenticators;
+using Newtonsoft.Json;
+using Newtonsoft.Json.Linq; //install NuGet Packages Newtonsoft.Json
+using Newtonsoft.Json.Converters;
+#endregion
+
+namespace ST_98022ece1ccd410da9ac735258de495f
+{
+    /// <summary>
+    /// ScriptMain is the entry point class of the script.  Do not change the name, attributes,
+    /// or parent of this class.
+    /// </summary>
+	[Microsoft.SqlServer.Dts.Tasks.ScriptTask.SSISScriptTaskEntryPointAttribute]
+	public partial class ScriptMain : Microsoft.SqlServer.Dts.Tasks.ScriptTask.VSTARTScriptObjectModelBase
+	{
+        #region Help:  Using Integration Services variables and parameters in a script
+        /* To use a variable in this script, first ensure that the variable has been added to 
+         * either the list contained in the ReadOnlyVariables property or the list contained in 
+         * the ReadWriteVariables property of this script task, according to whether or not your
+         * code needs to write to the variable.  To add the variable, save this script, close this instance of
+         * Visual Studio, and update the ReadOnlyVariables and 
+         * ReadWriteVariables properties in the Script Transformation Editor window.
+         * To use a parameter in this script, follow the same steps. Parameters are always read-only.
+         * 
+         * Example of reading from a variable:
+         *  DateTime startTime = (DateTime) Dts.Variables["System::StartTime"].Value;
+         * 
+         * Example of writing to a variable:
+         *  Dts.Variables["User::myStringVariable"].Value = "new value";
+         * 
+         * Example of reading from a package parameter:
+         *  int batchId = (int) Dts.Variables["$Package::batchId"].Value;
+         *  
+         * Example of reading from a project parameter:
+         *  int batchId = (int) Dts.Variables["$Project::batchId"].Value;
+         * 
+         * Example of reading from a sensitive project parameter:
+         *  int batchId = (int) Dts.Variables["$Project::batchId"].GetSensitiveValue();
+         * */
+
+        #endregion
+
+        #region Help:  Firing Integration Services events from a script
+        /* This script task can fire events for logging purposes.
+         * 
+         * Example of firing an error event:
+         *  Dts.Events.FireError(18, "Process Values", "Bad value", "", 0);
+         * 
+         * Example of firing an information event:
+         *  Dts.Events.FireInformation(3, "Process Values", "Processing has started", "", 0, ref fireAgain)
+         * 
+         * Example of firing a warning event:
+         *  Dts.Events.FireWarning(14, "Process Values", "No values received for input", "", 0);
+         * */
+        #endregion
+
+        #region Help:  Using Integration Services connection managers in a script
+        /* Some types of connection managers can be used in this script task.  See the topic 
+         * "Working with Connection Managers Programatically" for details.
+         * 
+         * Example of using an ADO.Net connection manager:
+         *  object rawConnection = Dts.Connections["Sales DB"].AcquireConnection(Dts.Transaction);
+         *  SqlConnection myADONETConnection = (SqlConnection)rawConnection;
+         *  //Use the connection in some code here, then release the connection
+         *  Dts.Connections["Sales DB"].ReleaseConnection(rawConnection);
+         *
+         * Example of using a File connection manager
+         *  object rawConnection = Dts.Connections["Prices.zip"].AcquireConnection(Dts.Transaction);
+         *  string filePath = (string)rawConnection;
+         *  //Use the connection in some code here, then release the connection
+         *  Dts.Connections["Prices.zip"].ReleaseConnection(rawConnection);
+         * */
+        #endregion
+
+
+        public class Type
+        {
+            public int id { get; set; }
+            public string name { get; set; }
+            public string locName { get; set; }
+            public string locDesc { get; set; }
+        }
+
+        public class Clock
+        {
+            public int index { get; set; }
+            public Type type { get; set; }
+            public string time { get; set; }
+            public object data { get; set; }
+            public object extData { get; set; }
+            public object lat { get; set; }
+            public object lng { get; set; }
+            public object hasLatLng { get; set; }
+            public object issue { get; set; }
+            public object allowedLocations { get; set; }
+        }
+
+        public class Clocks
+        {
+            public int workSummaryId { get; set; }
+            public List<Clock> clocks { get; set; }
+        }
+
+        public class Timecode
+        {
+            public int id { get; set; }
+            public string locName { get; set; }
+            public string locDesc { get; set; }
+            public string name { get; set; }
+        }
+
+        public class HourType
+        {
+            public int id { get; set; }
+            public string locName { get; set; }
+            public string locDesc { get; set; }
+            public string name { get; set; }
+        }
+
+        public class Job
+        {
+            public int id { get; set; }
+            public string locName { get; set; }
+            public string locDesc { get; set; }
+            public string name { get; set; }
+        }
+
+        public class Department
+        {
+            public int id { get; set; }
+            public string locName { get; set; }
+            public string locDesc { get; set; }
+            public string name { get; set; }
+        }
+
+        public class Project
+        {
+            public int id { get; set; }
+            public string locName { get; set; }
+            public string locDesc { get; set; }
+            public string name { get; set; }
+        }
+
+        public class Docket
+        {
+            public int id { get; set; }
+            public string locName { get; set; }
+            public string locDesc { get; set; }
+            public string name { get; set; }
+        }
+
+        public class Team
+        {
+            public int id { get; set; }
+            public string locName { get; set; }
+            public string locDesc { get; set; }
+            public string name { get; set; }
+            public object supervisor { get; set; }
+            public object supervisors { get; set; }
+        }
+
+        public class WorkDetail
+        {
+            public int id { get; set; }
+            public int workSummaryId { get; set; }
+            public string startTime { get; set; }
+            public string endTime { get; set; }
+            public int minutes { get; set; }
+            public double rate { get; set; }
+            public Timecode timecode { get; set; }
+            public HourType hourType { get; set; }
+            public Job job { get; set; }
+            public Department department { get; set; }
+            public Project project { get; set; }
+            public Docket docket { get; set; }
+            public Team team { get; set; }
+            public string workType { get; set; }
+        }
+
+        public class WorkSummary
+        {
+            public int id { get; set; }
+            public int empId { get; set; }
+            public string workDate { get; set; }
+            public int wrkMins { get; set; }
+            public bool authorized { get; set; }
+            public bool? overtime { get; set; }
+            public object absent { get; set; }
+            public object absentTimeCode { get; set; }
+            public string authorizedMessage { get; set; }
+            public object comments { get; set; }
+            public Clocks clocks { get; set; }
+            public List<WorkDetail> workDetails { get; set; }
+            public object exceptions { get; set; }
+            public object issues { get; set; }
+            public string wrksMessages { get; set; }
+            public bool readOnly { get; set; }
+            public string readOnlyReason { get; set; }
+            public bool daily { get; set; }
+        }
+
+        public class Root
+        {
+            public string from { get; set; }
+            public string to { get; set; }
+            public List<WorkSummary> workSummaries { get; set; }
+        }
+
+        /* Start of Error Class */
+        public class ErrorRoot
+        {
+            public string referenceID { get; set; }
+            public string title { get; set; }
+            public string msg { get; set; }
+        }
+        /* End of Error Class  */
+
+        /// <summary>
+        /// This method is called when this script task executes in the control flow.
+        /// Before returning from this method, set the value of Dts.TaskResult to indicate success or failure.
+        /// To open Help, press F1.
+        /// </summary>
+        public void Main()
+		{
+
+
+            //MessageBox.Show("Inside Script Task");
+
+            // TODO: Add your code here
+            string HCM_SID_WFM_JSESSIONID = null;
+            string HCM_WFM_wbat = null;
+            string JSESSIONID_COOKIE = null;
+
+
+            string empName = Dts.Variables["User::objEmployeeNumber"].Value.ToString();
+            string sempName = empName.PadLeft(6, '0');
+            string userName = Dts.Variables["$Package::username"].Value.ToString();
+            string password = Dts.Variables["$Package::password"].Value.ToString();
+            string fromDate = Dts.Variables["User::FromDate"].Value.ToString();
+            string toDate = Dts.Variables["User::ToDate"].Value.ToString();
+            string filename = Dts.Variables["$Package::WSFile"].Value.ToString();
+            string workSummariesErrorFile = Dts.Variables["$Package::WSErrorFile"].Value.ToString();
+            string Path = Dts.Variables["$Package::Path"].Value.ToString();
+            string creationDtTime = System.DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss");
+
+            string workSummariesFile = Path + filename;
+
+            
+
+            try
+            {
+                IRestClient loginClient = new RestClient("https://ruizfoodsproducts.ultiprotime.com/mobility/service/user/get_current");
+                var byteArray = Encoding.ASCII.GetBytes($"{userName}:{password}");
+                AuthenticationHeaderValue clientAuthorizationHeader = new AuthenticationHeaderValue("Basic", Convert.ToBase64String(byteArray));
+
+                IRestRequest request = new RestRequest(Method.GET);
+                request.AddHeader("Authorization", clientAuthorizationHeader.ToString());
+                //DebugFile.WriteLine("Before Execute");
+                IRestResponse loginResponse = loginClient.Execute(request);
+
+                if (loginResponse.StatusDescription == "OK")
+                {
+                    foreach (var item in loginResponse.Headers)
+                    {
+                        string[] KeyPairs = item.ToString().Split('=');
+                        if (KeyPairs[0] == "HCM-WFM-WBAT")
+                        {
+                            HCM_WFM_wbat = KeyPairs[1];
+                        }
+                        if (KeyPairs[0] == "HCM-SID-WFM-JSESSIONID")
+                        {
+                            HCM_SID_WFM_JSESSIONID = KeyPairs[1];
+                        }
+                    }
+
+                    foreach (var cookie in loginResponse.Cookies)
+                    {
+                        if (cookie.Name == "JSESSIONID")
+                        {
+                            JSESSIONID_COOKIE = cookie.Value;
+                        }
+                    }
+                    //MessageBox.Show(" From main " + loginResponse.StatusDescription);
+                    get_work_summaries(workSummariesFile, clientAuthorizationHeader, sempName, fromDate, toDate, HCM_WFM_wbat, HCM_SID_WFM_JSESSIONID, JSESSIONID_COOKIE);
+
+                    Dts.TaskResult = (int)ScriptResults.Success;
+                }
+                else
+                {
+                    System.IO.File.WriteAllText(Path + workSummariesErrorFile
+                        , "Login Response = " + loginResponse.StatusDescription.ToString() + "." + " Time ran = " + creationDtTime);
+
+                    Dts.TaskResult = (int)ScriptResults.Failure;
+                }
+            }
+            catch (Exception ex)
+            {
+                System.IO.File.WriteAllText(Path + workSummariesErrorFile
+                    , "Exception = " + ex.ToString() + "." + " Time ran = " + creationDtTime);
+                Dts.TaskResult = (int)ScriptResults.Failure;
+            }
+
+
+
+        }
+
+
+        static void get_work_summaries(string workSummariesFile, AuthenticationHeaderValue clientAuthorizationHeader, string sempName, string fromDate, string toDate, string wbat, string sessionId, string jsess_cook)
+        {
+
+
+            string apiFromDate;
+            string apiToDate;
+            string creationDtTime = System.DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss");
+            string WorkSummariesFilePath = workSummariesFile; //@"\\ruizpublicdrive\public\IT\BI\DWH & BI\masood\uta_api_files\ssis_worksummaries.txt";
+
+
+
+            List<WorkSummary> workSummariesList;
+            RestClient client = new RestClient("https://ruizfoodsproducts.ultiprotime.com/mobility/service/timesheet/get_work_summaries");
+            client.CookieContainer = new System.Net.CookieContainer();
+            //client.Timeout = -1;
+            RestRequest request = new RestRequest(Method.GET);
+            request.AddHeader("Authorization", clientAuthorizationHeader.ToString());
+            request.AddHeader("HCM-WFM-wbat", wbat);
+            request.AddHeader("HCM-SID-WFM-JSESSIONID", sessionId);
+            request.AddCookie("JSESSIONID", jsess_cook);
+
+            //if (sempName == "010637")
+            //{
+            //    sempName = "01063";
+            //}
+            request.AddParameter("empName", sempName);
+            request.AddParameter("from", fromDate + "T00:00");
+            request.AddParameter("to", toDate + "T00:00");
+            //request.AddParameter("from", "2020-08-01T00:00");
+            //request.AddParameter("to", "2020-12-06T00:00");
+            request.AddParameter("full", "true");
+
+            IRestResponse response = client.Execute(request);
+            //Console.WriteLine("/get_work_summaries for: " + h);
+            var jObject = JObject.Parse(response.Content);
+
+            //MessageBox.Show("worksummaries API "+ response.Content.ToString());
+
+            Root myDeserializedClass = JsonConvert.DeserializeObject<Root>(response.Content);
+            workSummariesList = myDeserializedClass.workSummaries;
+            apiFromDate = myDeserializedClass.from;
+            apiToDate = myDeserializedClass.to;
+
+            //MessageBox.Show(response.Content.ToString());
+            using (System.IO.StreamWriter WorkSummariesFile =
+                new System.IO.StreamWriter(WorkSummariesFilePath, true))
+            {
+                if (workSummariesList.Count != 0)
+                {
+                    foreach (var i in workSummariesList)
+                    {
+                        if (i.workDetails.Count != 0)
+                        {
+                            foreach (var k in i.workDetails)
+                            {
+                                //Console.Write("workdetails # "+ wlCntr +". ");
+
+                                //MessageBox.Show(k.id + "," + k.workSummaryId + "," + k.startTime + "," + k.endTime + "," + k.minutes + "," + k.rate
+                                //    + "," + k.timecode.id + "," + k.timecode.locName + "," + k.timecode.locDesc + "," + k.timecode.name
+                                //    + "," + k.hourType.id + "," + k.hourType.locName + "," + k.hourType.locDesc + "," + k.hourType.name
+                                //    + "," + k.job.id + "," + k.job.locName + "," + k.job.locDesc + "," + k.job.name
+                                //    + "," + k.department.id + "," + k.department.locName + "," + k.department.locDesc + "," + k.department.name
+                                //    + "," + k.project.id + "," + k.project.locName + "," + k.project.locDesc + "," + k.project.name
+                                //    + "," + k.docket.id + "," + k.docket.locName + "," + k.docket.locDesc + "," + k.docket.name
+                                //    + "," + k.team.id + "," + k.team.locName + "," + k.team.locDesc + "," + k.team.name + "," + k.team.supervisor + "," + k.team.supervisors
+                                //     + "," + k.workType + "," + creationDtTime);
+                                WorkSummariesFile.WriteLine(apiFromDate + "," + apiToDate + "," + i.id + "," + i.empId + "," + i.workDate + "," + i.wrkMins + "," + sempName
+                                  + "," + k.id + "," + k.startTime + "," + k.endTime + "," + k.minutes + "," + k.rate
+                                    + "," + k.timecode.id + "," + k.timecode.locName
+                                    + "," + k.hourType.id + "," + k.hourType.locName
+                                    + "," + k.job.id + "," + k.job.locName
+                                    + "," + k.department.id + "," + k.department.locName
+                                    + "," + k.project.id + "," + k.project.locName
+                                    + "," + k.docket.id + "," + k.docket.locName
+                                    + "," + k.team.id + "," + k.team.locName
+                                    + "," + k.workType + "," + creationDtTime
+                                  );
+
+                            }
+                        }
+                        else
+                        {
+                            WorkSummariesFile.WriteLine(apiFromDate + "," + apiToDate + "," + i.id + "," + i.empId + "," + i.workDate + "," + i.wrkMins + "," + sempName
+                                       + "," + "," + "," + "," + ","
+                                         + "," + ","
+                                         + "," + ","
+                                         + "," + ","
+                                         + "," + ","
+                                         + "," + ","
+                                         + "," + ","
+                                         + "," + ","
+                                         + "," + ","
+                                       );
+                        }
+                    }
+
+                }
+                else
+                {
+                    WorkSummariesFile.WriteLine(apiFromDate + "," + apiToDate + "," + "," + "," + "," + "," + sempName
+                                              + "," + "," + "," + "," + ","
+                                                + "," + ","
+                                                + "," + ","
+                                                + "," + ","
+                                                + "," + ","
+                                                + "," + ","
+                                                + "," + ","
+                                                + "," + ","
+                                                + "," + ","
+                                              );
+                }
+            }
+
+
+
+
+
+
+        }
+
+
+        #region ScriptResults declaration
+        /// <summary>
+        /// This enum provides a convenient shorthand within the scope of this class for setting the
+        /// result of the script.
+        /// 
+        /// This code was generated automatically.
+        /// </summary>
+        enum ScriptResults
+        {
+            Success = Microsoft.SqlServer.Dts.Runtime.DTSExecResult.Success,
+            Failure = Microsoft.SqlServer.Dts.Runtime.DTSExecResult.Failure
+        };
+        #endregion
+
+	}
+}

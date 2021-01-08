@@ -37,4 +37,4 @@ as many times as there EmployeeNumbers.
 
 The code for WorkSummaries API is in file worksummariesapicode.txt
 
-The JSON response from the WorkSummaries API is in <a class="js-navigation-open link-gray-dark" title="work_summaries.json" href="/masoodqq/RestSharpAPI/blob/main/work_summaries.json">work_summaries.json</a>
+The JSON response from the WorkSummaries API is in <a class="js-navigation-open link-gray-dark" title="work_summaries.json" href="https://github.com/masoodqq/RestSharpAPI/blob/main/work_summaries.json">work_summaries.json</a>

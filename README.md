@@ -1,6 +1,6 @@
 <H1> RestSharpAPI </H1>
 
-SSIS stands for SQL Server Integeration Service. This is a ETL tool for creating data piplines.
+SSIS stands for SQL Server Integeration Service. This is a ETL tool for creating data piplines provided by Microsoft.
 
 This SSIS package downloads data from external source in JSON format and transforms the data into csv format file.
 
@@ -14,13 +14,13 @@ This package uses 3 script task components.
   <li>WorkSummaries API</li>
 </ol>
 
-A script task component in SSIS pacakge provides an ability write C# code. The script task component comes in hand when calling external API.
+A script task component in SSIS pacakge provides an ability write C# code. The script task component comes in handy when calling external API.
 
-EmploymentDetails API and WorkSummaries API are 2 components in which external API is called.
-The API retruns JSON response and in terms of transforming the JSON format to csv format. The transformation process is identical and the code is listed in worksummariesapicode.txt
+EmploymentDetails API and WorkSummaries API are 2 components in which external API is called.<br>
+The API retruns JSON response and in terms of transforming the JSON format to csv format. The transformation process is identical and the code is listed in <a class="js-navigation-open link-gray-dark" title="work_summariesapicode.json" href="https://github.com/masoodqq/RestSharpAPI/blob/main/worksummariesapicode.txt">worksummariesapicode.txt</a>
 
 Create Header Record WorkSummaries File, as the name indicates writes a header record in the
-text file, this file is then opened in the WorkSummaries API and writes the data from the API.
+text file, this file is then opened in the WorkSummaries API and writes the data from the API response.
 
 Data extracting starts by running the EmploymentDetails API and writing employees in a text file, it is then loaded in a staging table stg_employment_details. Before inserting the data, the table is truncated.
 
@@ -31,7 +31,7 @@ Select EmployeeNumbers task is executing the follwoing SQL statement <br>
 SELECT EmployeeNumbers <br>
 FROM EmploymentDetails
 
-The output from the Select EmployeeNumbers task is written in a variable of type Object, this variable is an input for the Foreach Loop Container and the WorkSummariesAPI is executed inside the container as many times as there are EmployeeNumbers.
+The output from the Select EmployeeNumbers task is stored in a variable of type Object, this variable is an input for the Foreach Loop Container and the WorkSummariesAPI is executed inside the container as many times as there are EmployeeNumbers. The parameters for this API are employee number and a date range, explained in the code.
 
 The code for WorkSummaries API is in file <a class="js-navigation-open link-gray-dark" title="work_summariesapicode.json" href="https://github.com/masoodqq/RestSharpAPI/blob/main/worksummariesapicode.txt">worksummariesapicode.txt</a>
 

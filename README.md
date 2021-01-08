@@ -13,5 +13,28 @@ In this package, there are 3 script task component used.
 <ol>
   <li>EmploymentDetails API</li>
   <li>Create Header Record WorkSummaries File</li>
-  <li>Script Task</li>
+  <li>WorkSummaries API</li>
 </ol>
+
+There is no difference between EmploymentDetails API and WorkSummaries API
+in terms of transforming the JSON format to csv format. The transformation process is identical and the code is listed in worksummariesapicode.txt
+
+Create Header Record WorkSummaries File, as the name indicates writes a header record in the
+text file, this file is then opened in the WorkSummaries API and writes the data from the API.
+
+Data extracting starts by downloading all the employees by running the
+EmploymentDetails API in a text file, it is then loaded in a staging table stg_employment_details. Before inserting the data the table is truncated.
+
+The next step in control flow is to run Create Header Record WorkSummaries File script task.
+Then the flow is moved to selecting all the employee numbers that we extracted earlier.
+
+Select EmployeeNumbers box is executing the follwoing SQL statement
+SELECT EmployeeNumbers
+FROM EmploymentDetails
+
+The output from the Select EmployeeNumbers task is written in a variable of type Object, this variable is an input for the Foreach Loop Container and the WorkSummariesAPI is called
+as many times as there EmployeeNumbers.
+
+The code for WorkSummaries API is in file worksummariesapicode.txt
+
+Here is the sample JSON response from the WorkSummaries API:

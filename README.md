@@ -42,7 +42,7 @@ Further data transformation is done by executing stored procedures InsertIntoWor
 
 <H1> Resources </H1>
 
-<a class="js-navigation-open link-gray-dark" href="https://restsharp.dev/">restsharp</a> <br>
+<a class="js-navigation-open link-gray-dark" href="https://restsharp.dev/">Restsharp</a> <br>
 <a class="js-navigation-open link-gray-dark" href="https://www.newtonsoft.com/json">Newtonsoft</a> <br>
 <a class="js-navigation-open link-gray-dark" href="https://docs.microsoft.com/en-us/sql/integration-services/integration-services-programming-overview?view=sql-server-ver15">Integration Services Programming Overview</a>
 <br>

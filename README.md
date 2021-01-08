@@ -28,7 +28,7 @@ EmploymentDetails API in a text file, it is then loaded in a staging table stg_e
 The next step in control flow is to run Create Header Record WorkSummaries File script task.
 Then the flow is moved to selecting all the employee numbers that we extracted earlier.
 
-Select EmployeeNumbers box is executing the follwoing SQL statement
+Select EmployeeNumbers box is executing the follwoing SQL statement <br>
 SELECT EmployeeNumbers
 FROM EmploymentDetails
 
@@ -37,4 +37,4 @@ as many times as there EmployeeNumbers.
 
 The code for WorkSummaries API is in file worksummariesapicode.txt
 
-Here is the sample JSON response from the WorkSummaries API:
+The JSON response from the WorkSummaries API is in <a class="js-navigation-open link-gray-dark" title="work_summaries.json" href="/masoodqq/RestSharpAPI/blob/main/work_summaries.json">work_summaries.json</a>

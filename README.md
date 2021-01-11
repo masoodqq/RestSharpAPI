@@ -40,6 +40,8 @@ The JSON response from the WorkSummaries API is in <a class="js-navigation-open 
 After the WorkSummaries API is finished then the stg_work_summaries table is truncated and the data is inserted.
 Further data transformation is done by executing stored procedures InsertIntoWorkSummaries and InsertIntoDailyLabor.
 
+This package is automated by calling in SQL Job Agent to run daily.
+
 <H1> Resources </H1>
 
 <a class="js-navigation-open link-gray-dark" href="https://restsharp.dev/">Restsharp</a> <br>
